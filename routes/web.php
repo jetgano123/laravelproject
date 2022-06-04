@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,21 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/mainpage',function(){
-    return view('mainpage');
-});
-Route::get('/login',function(){
-    return view('login');
-});
-Route::get('/cart',function(){
-    return view('cart');
-});
-
-Route::get('/wishlist',function(){
-    return view('wishlist');
-});
-Route::get('/shop',function(){
-    return view('shop');
-});
-
-
+Route::get('/mainpage',[PageController::class,'mainpage']);
+Route::get('/login',[PageController::class,'login']);
+Route::get('/cart',[PageController::class,'cart']);
+Route::get('/wishlist',[PageController::class,'wishlist']);
+Route::get('/shop',[PageController::class,'shop']);
