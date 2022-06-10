@@ -1,3 +1,7 @@
+@php
+session_start();
+var_dump($_SESSION["cart"]);
+@endphp
 <!doctype html>
 <html lang="en-US">
 
@@ -728,7 +732,7 @@
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demo4.drfuri.com/razzi9/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0" />
     <meta name="generator" content="WooCommerce 6.5.1" />
-    <link rel="canonical" href="https://demo4.drfuri.com/razzi9/cart/" />
+    <link rel="canonical" href="cart" />
     <link rel='shortlink' href='https://demo4.drfuri.com/razzi9/?p=6' />
     <style type='text/css'>
         img#wpstats {
@@ -1316,7 +1320,7 @@
                 <div class="woocommerce">
                     <div class="woocommerce-notices-wrapper"></div>
                     <div class="woocommrece-cart-content">
-                        <form class="woocommerce-cart-form" action="https://demo4.drfuri.com/razzi9/cart/" method="post">
+                        <form class="woocommerce-cart-form" action="cart" method="post">
 
                             <div class="razzi-free-shipping-bar">
                                 <div class="razzi-free-shipping-bar__message">
@@ -1328,20 +1332,23 @@
                             </div>
                             <table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
                                 <tbody>
+                                    @foreach($products as $product)
+                                    @foreach($_SESSION["cart"] as $key => $value)
+                                    @if($product->id == $key)
 
                                     <tr class="woocommerce-cart-form__cart-item cart_item">
 
                                         <td class="product-thumbnail">
-                                            <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/"><img width="570" height="684" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?w=900&amp;ssl=1 900w, https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=250%2C300&amp;ssl=1 250w, https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=853%2C1024&amp;ssl=1 853w, https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=768%2C922&amp;ssl=1 768w, https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=570%2C684&amp;ssl=1 570w, https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=600%2C720&amp;ssl=1 600w, https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=130%2C156&amp;ssl=1 130w" sizes="(max-width: 570px) 100vw, 570px" /></a>
+                                            <a href="detail?id={{$product->id}}"><img width="570" height="684" src="{{$product->imagepath}}?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="{{$product->imagepath}}?w=900&amp;ssl=1 900w, {{$product->imagepath}}?resize=250%2C300&amp;ssl=1 250w, {{$product->imagepath}}?resize=853%2C1024&amp;ssl=1 853w, {{$product->imagepath}}?resize=768%2C922&amp;ssl=1 768w, {{$product->imagepath}}?resize=570%2C684&amp;ssl=1 570w, {{$product->imagepath}}?resize=600%2C720&amp;ssl=1 600w, {{$product->imagepath}}?resize=130%2C156&amp;ssl=1 130w" sizes="(max-width: 570px) 100vw, 570px" /></a>
                                         </td>
 
                                         <td class="product-content">
                                             <div class="product-top">
                                                 <div class="product-name">
-                                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">Adagio Nightstand</a>
+                                                    <a href="detail?id={{$product->id}}">{{$product->name}}</a>
                                                 </div>
                                                 <div class="product-price">
-                                                    <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span>
+                                                    <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span>
                                                 </div>
                                             </div>
                                             <div class="product-bottom">
@@ -1350,7 +1357,7 @@
                                                         <div class="quantity">
                                                             <span class="razzi-svg-icon razzi-qty-button decrease"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                                     <path fill="currentColor" d="M376 232H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h368c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
-                                                                </svg></span> <label class="screen-reader-text" for="quantity_629657019150f">Adagio Nightstand quantity</label>
+                                                                </svg></span> <label class="screen-reader-text" for="quantity_629657019150f">{{$product->name}} quantity</label>
                                                             <input type="number" id="quantity_629657019150f" class="input-text qty text" step="1" min="0" max="" name="cart[4d0b954f0bef437c29dfa73fafdf3fa5][qty]" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off" />
                                                             <span class="razzi-svg-icon razzi-qty-button increase"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                                     <path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
@@ -1358,17 +1365,15 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="product-remove">
-                                                    <a href="https://demo4.drfuri.com/razzi9/cart/?remove_item=4d0b954f0bef437c29dfa73fafdf3fa5&#038;_wpnonce=0fc408ae44" class="remove" aria-label="Remove this item" data-product_id="6831" data-cart_item_key="4d0b954f0bef437c29dfa73fafdf3fa5" data-product_sku="Q4TTYHTJY0"><span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                                                            </svg></span><span class="name">Remove</span></a>
-                                                </div>
+                                                <a href="deletecart?id={{$product->id}}">
+                                                    Remove
+                                                </a>
                                             </div>
                                         </td>
                                     </tr>
-
-
+                                    @endif
+                                    @endforeach
+                                    @endforeach
                                     <tr class="coupon-form">
                                         <td colspan="6" class="actions">
 
@@ -1401,7 +1406,7 @@
 
                                     <tr class="cart-subtotal">
                                         <th>Subtotal</th>
-                                        <td data-title="Subtotal"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span></td>
+                                        <td data-title="Subtotal"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span></td>
                                     </tr>
 
 
@@ -1420,7 +1425,7 @@
 
 
 
-                                            <form class="woocommerce-shipping-calculator" action="https://demo4.drfuri.com/razzi9/cart/" method="post">
+                                            <form class="woocommerce-shipping-calculator" action="cart" method="post">
 
                                                 <a href="#" class="shipping-calculator-button">Change address</a>
                                                 <section class="shipping-calculator-form" style="display:none;">
@@ -1790,6 +1795,7 @@
 
             </article>
 
+
         </div>
         <footer id="site-footer" class="site-footer site-footer-light">
 
@@ -1829,7 +1835,7 @@
                                         <li id="menu-item-11234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11234"><a href="https://demo4.drfuri.com/razzi9/contact-us/">Contact Us</a></li>
                                         <li id="menu-item-11235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11235"><a href="https://demo4.drfuri.com/razzi9/faq/">FAQs</a></li>
                                         <li id="menu-item-11236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11236"><a href="https://demo4.drfuri.com/razzi9/shipping-returns/">Shipping &amp; Returns</a></li>
-                                        <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">Product Recalls</a></li>
+                                        <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="detail?id={{$product->id}}">Product Recalls</a></li>
                                         <li id="menu-item-11238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11238"><a href="https://demo4.drfuri.com/razzi9/store-locator/">Store Locator</a></li>
                                     </ul>
                                 </div>
@@ -2019,7 +2025,7 @@
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7077"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=8">Add to cart text</a></li>
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7078"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=9">Quick Shop button</a></li>
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7061"><a>Woo Pages</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-6057 active"><a href="https://demo4.drfuri.com/razzi9/cart/">Cart</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-6057 active"><a href="cart">Cart</a></li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6056"><a href="https://demo4.drfuri.com/razzi9/checkout/">Checkout</a></li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7062"><a href="https://demo4.drfuri.com/razzi9/wishlist/">Wishlist</a></li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6055"><a href="https://demo4.drfuri.com/razzi9/my-account/">My account</a></li>
@@ -2860,15 +2866,15 @@
                     <ul class="woocommerce-mini-cart cart_list product_list_widget razzi-scrollbar ">
                         <li class="woocommerce-mini-cart-item mini-cart-item-6831 mini_cart_item">
                             <div class="woocommerce-mini-cart-item__thumbnail">
-                                <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                    <img width="130" height="156" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
+                                <a href="detail?id={{$product->id}}">
+                                    <img width="130" height="156" src="{{$product->imagepath}}?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
                             </div>
 
                             <div class="woocommerce-mini-cart-item__summary">
                                 <span class="woocommerce-mini-cart-item__name">
-                                    <a class="woocommerce-mini-cart-item__title" href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                        Adagio Nightstand </a>
-                                    <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span></span>
+                                    <a class="woocommerce-mini-cart-item__title" href="detail?id={{$product->id}}">
+                                        {{$product->name}} </a>
+                                    <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span></span>
                                     <span class="woocommerce-mini-cart-item__qty hidden">
                                         QTY: 1 </span>
                                 </span>
@@ -2876,13 +2882,13 @@
                                     <div class="quantity">
                                         <span class="razzi-svg-icon razzi-qty-button decrease"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h368c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
-                                            </svg></span> <label class="screen-reader-text" for="quantity_62965701c16a5">Adagio Nightstand quantity</label>
+                                            </svg></span> <label class="screen-reader-text" for="quantity_62965701c16a5">{{$product->name}} quantity</label>
                                         <input type="number" id="quantity_62965701c16a5" class="input-text qty text" step="1" min="0" max="" name="cart[4d0b954f0bef437c29dfa73fafdf3fa5][qty]" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off" />
                                         <span class="razzi-svg-icon razzi-qty-button increase"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
                                             </svg></span>
                                     </div>
-                                    <a href="https://demo4.drfuri.com/razzi9/cart/?remove_item=4d0b954f0bef437c29dfa73fafdf3fa5&#038;_wpnonce=0fc408ae44" class="remove remove_from_cart_button" aria-label="Remove this item" data-product_id="6831" data-cart_item_key="4d0b954f0bef437c29dfa73fafdf3fa5" data-product_sku="Q4TTYHTJY0"><span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <a href="cart?remove_item=4d0b954f0bef437c29dfa73fafdf3fa5&#038;_wpnonce=0fc408ae44" class="remove remove_from_cart_button" aria-label="Remove this item" data-product_id="6831" data-cart_item_key="4d0b954f0bef437c29dfa73fafdf3fa5" data-product_sku="Q4TTYHTJY0"><span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                 <line x1="18" y1="6" x2="6" y2="18"></line>
                                                 <line x1="6" y1="6" x2="18" y2="18"></line>
                                             </svg></span><span class="name">Remove</span></a>
@@ -2895,7 +2901,7 @@
                     <div class="widget_shopping_cart_footer">
 
                         <p class="woocommerce-mini-cart__total total">
-                            <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span>
+                            <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span>
                         </p>
 
 
@@ -2907,7 +2913,7 @@
                             </div>
                             <div class="razzi-free-shipping-bar__percent-value">18.43%</div>
                         </div>
-                        <p class="woocommerce-mini-cart__buttons buttons"><a href="https://demo4.drfuri.com/razzi9/cart/" class="button wc-forward razzi-button">View cart</a><a href="https://demo4.drfuri.com/razzi9/checkout/" class="button checkout wc-forward razzi-button button-outline">Checkout</a></p>
+                        <p class="woocommerce-mini-cart__buttons buttons"><a href="cart" class="button wc-forward razzi-button">View cart</a><a href="https://demo4.drfuri.com/razzi9/checkout/" class="button checkout wc-forward razzi-button button-outline">Checkout</a></p>
 
                     </div>
 
@@ -3533,29 +3539,6 @@
                     'cart_page_contains_cart_shortcode': '1',
                     'checkout_page_contains_checkout_block': '0',
                     'checkout_page_contains_checkout_shortcode': '1',
-                });
-            });
-
-
-            jQuery('button[name=update_cart]').on('click', function() {
-                var cartItems = jQuery('.cart_item');
-                cartItems.each(function(item) {
-                    var qty = jQuery(this).find('input.qty');
-                    if (qty && qty.val() === '0') {
-                        var productID = jQuery(this).find('.product-remove a').data('product_id');
-                        _wca.push({
-                            '_en': 'woocommerceanalytics_remove_from_cart',
-                            'pi': productID,
-                            'blog_id': '197487481',
-                            'ui': 'null',
-                            'url': 'https://demo4.drfuri.com/razzi9',
-                            'woo_version': '6.5.1',
-                            'cart_page_contains_cart_block': '0',
-                            'cart_page_contains_cart_shortcode': '1',
-                            'checkout_page_contains_checkout_block': '0',
-                            'checkout_page_contains_checkout_shortcode': '1',
-                        });
-                    }
                 });
             });
 

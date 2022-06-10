@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +18,12 @@ use App\Http\Controllers\PageController;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/mainpage',[PageController::class,'mainpage']);
 Route::get('/login',[PageController::class,'login']);
 Route::get('/cart',[PageController::class,'cart']);
 Route::get('/wishlist',[PageController::class,'wishlist']);
 Route::get('/shop',[PageController::class,'shop']);
+Route::get('/detail',[PageController::class,'detail']);
+Route::get('/addtocart',[PageController::class,'addtocart']);
+Route::get('/deletecart',[PageController::class,'deletecart']);

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -13,12 +14,26 @@ class PageController extends Controller
         return view("login");
     }
     public function cart(){
-        return view("cart");
+        $products = Product::Latest()->get();
+        return view("cart", compact('products'));
     }
     public function wishlist(){
         return view("wishlist");
     }
     public function shop(){
-        return view("shop");
+        $products = Product::Latest()->get();
+        return view("shop", compact('products'));
+    }
+    public function detail(){
+        $products = Product::Latest()->get();
+        return view("detail",compact('products'));
+    }
+    public function addtocart(){
+        $products = Product::Latest()->get();
+        return view("addtocart",compact('products'));
+    }
+    public function deletecart(){
+        $products = Product::Latest()->get();
+        return view("deletecart",compact('products'));
     }
 }
