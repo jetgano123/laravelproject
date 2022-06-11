@@ -1,6 +1,5 @@
 @php
-session_start();
-var_dump($_SESSION["cart"]);
+session_start();$sum = 0 ;
 @endphp
 <!doctype html>
 <html lang="en-US">
@@ -1406,10 +1405,22 @@ var_dump($_SESSION["cart"]);
 
                                     <tr class="cart-subtotal">
                                         <th>Subtotal</th>
-                                        <td data-title="Subtotal"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span></td>
+                                        <td data-title="Subtotal"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;
+
+                                                        @foreach($products as $product)
+                                                        @foreach($_SESSION["cart"] as $key => $value)
+                                                        @if($product->id == $key)
+                                                        @php
+                                                        $sum += $product->price;
+                                                        @endphp
+                                                        @endif
+                                                        @endforeach
+                                                        @endforeach
+                                                        @php
+                                                        echo $sum
+                                                        @endphp
+                                                    </bdi></span></span></td>
                                     </tr>
-
-
 
 
                                     <tr class="woocommerce-shipping-totals shipping">
@@ -1770,7 +1781,7 @@ var_dump($_SESSION["cart"]);
 
                                     <tr class="order-total">
                                         <th>Total</th>
-                                        <td data-title="Total"><strong><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;44.24</bdi></span></span></strong> </td>
+                                        <td data-title="Total"><strong><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$sum}}</bdi></span></span></strong> </td>
                                     </tr>
 
 

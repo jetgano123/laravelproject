@@ -1343,11 +1343,7 @@ if(isset($_GET['id'])){
                                                 <div class="yith-wcwl-add-to-wishlist add-to-wishlist-{{$id}}  wishlist-fragment on-first-load" data-fragment-ref="{{$id}}" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:true,&quot;show_exists&quot;:false,&quot;product_id&quot;:{{$id}},&quot;parent_product_id&quot;:{{$id}},&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:true,&quot;browse_wishlist_text&quot;:&quot;Browse&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
 
                                                     <div class="yith-wcwl-add-button">
-                                                        <a href="?add_to_wishlist={{$id}}" rel="nofollow" data-product-id="{{$id}}" data-product-type="simple" data-original-product-id="{{$id}}" class="rz-loop_button add_to_wishlist single_add_to_wishlist" data-title="Wishlist" data-text="Wishlist" data-product-title="{{$product->name}}">
-                                                            <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                                                                </svg></span> <span class="loop_button-text">Wishlist</span>
-                                                        </a>
+                                                        <a href="addwishlist?id={{$id}}">&#10084;</a>
                                                     </div>
 
                                                 </div>

@@ -27,3 +27,5 @@ Route::get('/shop',[PageController::class,'shop']);
 Route::get('/detail',[PageController::class,'detail']);
 Route::get('/addtocart',[PageController::class,'addtocart']);
 Route::get('/deletecart',[PageController::class,'deletecart']);
+Route::get('/addwishlist',[PageController::class,'addwishlist']);
+Route::get('/removewishlist',[PageController::class,'removewishlist']);

@@ -18,7 +18,8 @@ class PageController extends Controller
         return view("cart", compact('products'));
     }
     public function wishlist(){
-        return view("wishlist");
+        $products = Product::Latest()->get();
+        return view("wishlist",compact('products'));
     }
     public function shop(){
         $products = Product::Latest()->get();
@@ -35,5 +36,13 @@ class PageController extends Controller
     public function deletecart(){
         $products = Product::Latest()->get();
         return view("deletecart",compact('products'));
+    }
+    public function addwishlist(){
+        $products = Product::Latest()->get();
+        return view("addwishlist",compact('products'));
+    }
+    public function removewishlist(){
+        $products = Product::Latest()->get();
+        return view("removewishlist",compact('products'));
     }
 }

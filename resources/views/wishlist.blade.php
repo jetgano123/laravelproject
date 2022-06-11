@@ -1,3 +1,6 @@
+@php
+session_start();
+@endphp
 <!doctype html>
 <html lang="en-US">
 
@@ -1285,251 +1288,7 @@
     </svg>
     <div id="page" class="site">
         <div id="site-header-minimized"></div>
-        <header id="site-header" class="site-header header-bottom-no-sticky site-header__border">
-            <div class="header-main header-contents hidden-xs hidden-sm has-center logo-center">
-                <div class="razzi-header-container container">
-                    <div class="header-left-items header-items  has-menu has-logo">
-                        <nav id="primary-menu" class="main-navigation primary-navigation">
-                            <ul id="menu-primary-menu" class="nav-menu click-icon">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-10076 dropdown is-mega-menu has-width align-left"><a href="https://demo4.drfuri.com/razzi9/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                                    <ul style=" width:500px" class="dropdown-submenu">
-                                        <li class="mega-menu-content row-flex">
-                                            <div class="menu-item-mega mr-col col-flex col-flex-md-6">
-                                                <a href="#" class="dropdown-toggle hide-text hidden" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topic 1</a>
-                                                <ul class="sub-menu check">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10077"><a href="https://demo4.drfuri.com/razzi/">Home v1 &#8211; Minimal</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6371"><a href="https://demo4.drfuri.com/razzi/home-2/?home_style=2">Home v2 &#8211; Classic</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6372"><a href="https://demo4.drfuri.com/razzi/home-3/?home_style=3">Home v3 &#8211; Fashion</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6373"><a href="https://demo4.drfuri.com/razzi/home-4/?home_style=4">Home v4 &#8211; Boxes</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6374"><a href="https://demo4.drfuri.com/razzi5">Home v5 &#8211; Simple</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6375"><a href="https://demo4.drfuri.com/razzi/home-6/?home_style=6">Home v6 &#8211; Asymmetric</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6376"><a href="https://demo4.drfuri.com/razzi7">Home v7 &#8211; Masonry</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6377"><a href="https://demo4.drfuri.com/razzi2/home-8/?home_style=8">Home v8 &#8211; Landing</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11263"><a href="https://demo4.drfuri.com/razzi/home-10/">Home v9 &#8211; Fashion</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11264"><a href="https://demo4.drfuri.com/razzi8">Home v10 &#8211; Cases</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11267"><a href="https://demo4.drfuri.com/razzi3/">Home v11 &#8211; Furniture</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6511"><a href="https://demo4.drfuri.com/razzi9/">Home v12 &#8211; Furniture</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11265"><a href="https://demo4.drfuri.com/razzi4/">Home v13 &#8211; Furniture</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11268"><a href="https://demo4.drfuri.com/razzi3/home-2/?home_style=10">Home v14 &#8211; Furniture</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11266"><a href="https://demo4.drfuri.com/razzi3/home-3/?home_style=10">Home v15 &#8211; Furniture</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11269"><a href="https://demo4.drfuri.com/razzi/home-instagram/?home_style=10">Home v16 &#8211; Instagram</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="menu-item-mega mr-col col-flex col-flex-md-6">
-                                                <a href="#" class="dropdown-toggle hide-text hidden" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topic 2</a>
-                                                <ul class="sub-menu check">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11913"><a href="https://demo4.drfuri.com/razzi9/home-17/?home_style=17">Home v17 &#8211; Interior Decor</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11916"><a href="https://demo4.drfuri.com/razzi10/">Home v18 &#8211; Food Store</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11917"><a href="https://demo4.drfuri.com/razzi11/">Home v19 &#8211; Electronics</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11928"><a href="https://demo4.drfuri.com/razzi/home-20/?home_style=20">Home v20 &#8211; Parallax</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11947"><a href="https://demo4.drfuri.com/razzi12/">Home v21 &#8211; Cosmetics</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11949"><a href="https://demo4.drfuri.com/razzi14">Home v22 &#8211; Full Width</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11950"><a href="https://demo4.drfuri.com/razzi15/">Home v23 &#8211; Jewelry</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11951"><a href="https://demo4.drfuri.com/razzi13/">Home v24 &#8211; Baby</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11952"><a href="https://demo4.drfuri.com/razzi16/">Home v25 &#8211; Furniture</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11957"><a href="https://demo4.drfuri.com/razzi23/">Home v26 &#8211; Pharmacy</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11958"><a href="https://demo4.drfuri.com/razzi18/">Home v27 &#8211; Tools</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11959"><a href="https://demo4.drfuri.com/razzi19/">Home v28 &#8211; Nails</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11960"><a href="https://demo4.drfuri.com/razzi20/">Home v29 &#8211; Fashion Sport</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11961"><a href="https://demo4.drfuri.com/razzi21">Home v30 &#8211; Books<span style="--rz-badges-bg-color:#ff6f61;" class="razzi-menu-badges">New</span></a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11962"><a href="https://demo4.drfuri.com/razzi22">Home v31 &#8211; Grocery<span style="--rz-badges-bg-color:#ff6f61;" class="razzi-menu-badges">New</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-6058 active dropdown is-mega-menu has-width align-left"><a href="https://demo4.drfuri.com/razzi9/shop/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
-                                    <ul style=" width:800px" class="dropdown-submenu">
-                                        <li class="mega-menu-content row-flex">
-                                            <div class="menu-item-mega mr-col col-flex col-flex-md-3">
-                                                <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop Layout</a>
-                                                <ul class="sub-menu check">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10202"><a href="https://demo4.drfuri.com/razzi/shop/">Default</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6586"><a href="https://demo4.drfuri.com/razzi9/shop/">Topbar</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6587"><a href="https://demo4.drfuri.com/razzi/shop/?shop_layout=3">Collapse</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7110"><a href="https://demo4.drfuri.com/razzi/shop/?shop_layout=6">Modal</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6589"><a href="https://demo4.drfuri.com/razzi7/shop/">Masonry</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7133"><a href="https://demo4.drfuri.com/razzi/shop/?shop_layout=7">Columns 3</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7134"><a href="https://demo4.drfuri.com/razzi/shop/?shop_layout=8">Columns 4</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7135"><a href="https://demo4.drfuri.com/razzi/shop/?shop_layout=9">Columns 5</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6590"><a class=" is-label">Product Layout</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6591"><a href="https://demo4.drfuri.com/razzi9/product/divina-sofa-and-ottoman/">Default</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6592"><a href="https://demo4.drfuri.com/razzi9/product/almo-sideboard/?product_layout=2">Images Left</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6593"><a href="https://demo4.drfuri.com/razzi9/product/hanging-lamp-red/?product_layout=3">Images Grid</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6594"><a href="https://demo4.drfuri.com/razzi9/product/pollock-executive-chair/?product_layout=4">Images Slider</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6595"><a href="https://demo4.drfuri.com/razzi9/product/gubi-ronde-pendant/?product_layout=5">Images Stacked</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="menu-item-mega mr-col col-flex col-flex-md-3">
-                                                <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Type</a>
-                                                <ul class="sub-menu check">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7053"><a href="https://demo4.drfuri.com/razzi9/product/vasagle-comfortable-sofa/">Simple</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7054"><a href="https://demo4.drfuri.com/razzi9/product/strandmon-wing-chair/">Color Swatches</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7055"><a href="https://demo4.drfuri.com/razzi9/product/almo-sideboard/">Image Swatches</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7057"><a href="https://demo4.drfuri.com/razzi9/product/gubi-ronde-pendant/">Coundown</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7068"><a href="https://demo4.drfuri.com/razzi9/product/string-system-drawer/">Affiliate</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7059"><a href="https://demo4.drfuri.com/razzi9/product/saga-bred-byra/">Groupped</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7058"><a href="https://demo4.drfuri.com/razzi/product/bag-with-flap/">Product Video</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7060"><a href="https://demo4.drfuri.com/razzi20/shop/nike-sportswear-futura-luxe/">Variation Images</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7063"><a class=" is-label">Product Pages</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7162"><a href="https://demo4.drfuri.com/razzi9/recent">New</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7064"><a href="https://demo4.drfuri.com/razzi9/on-sale/">Sale</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7066"><a href="https://demo4.drfuri.com/razzi9/top-rated/">Best Rating</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7067"><a href="https://demo4.drfuri.com/razzi9/featured/">Featured</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7065"><a href="https://demo4.drfuri.com/razzi9/best-selling/">Best Selling</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="menu-item-mega mr-col col-flex col-flex-md-3">
-                                                <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Card</a>
-                                                <ul class="sub-menu check">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7070"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=1">Icons over thumbnail</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7071"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=2">Quick view button</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7072"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=3">Add to cart button</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7073"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=4">Icons on the bottom</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7074"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=5">Simple</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7075"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=6">Standard button</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7076"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=7">Info on hover</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7077"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=8">Add to cart text</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7078"><a href="https://demo4.drfuri.com/razzi9/product-loop-style/?product_loop=9">Quick Shop button</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7061"><a class=" is-label">Woo Pages</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6057"><a href="https://demo4.drfuri.com/razzi9/cart/">Cart</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6056"><a href="https://demo4.drfuri.com/razzi9/checkout/">Checkout</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-7062 active"><a href="https://demo4.drfuri.com/razzi9/wishlist/">Wishlist</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6055"><a href="https://demo4.drfuri.com/razzi9/my-account/">My account</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="menu-item-mega mr-col col-flex col-flex-md-3">
-                                                <a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Hover</a>
-                                                <ul class="sub-menu check">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7221"><a href="https://demo4.drfuri.com/razzi9/product-hover-style/?product_hover=1">Classic</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7222"><a href="https://demo4.drfuri.com/razzi9/product-hover-style/?product_hover=2">Slider</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7223"><a href="https://demo4.drfuri.com/razzi9/product-hover-style/?product_hover=3">Fadein</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7224"><a href="https://demo4.drfuri.com/razzi9/product-hover-style/?product_hover=4">Zoom</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7225"><a class=" is-label">Added To Cart</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7235"><a href="https://demo4.drfuri.com/razzi9/added-to-cart-style/?add_to_cart_style=1">None</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7236"><a href="https://demo4.drfuri.com/razzi9/added-to-cart-style/?add_to_cart_style=2">Simple</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7237"><a href="https://demo4.drfuri.com/razzi9/added-to-cart-style/?add_to_cart_style=3">Popup</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7238"><a href="https://demo4.drfuri.com/razzi9/added-to-cart-style/?add_to_cart_style=4">Panel</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10228"><a href="#" class=" is-label">Product Features</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10227"><a href="https://demo4.drfuri.com/razzi9/product/gubi-ronde-pendant/">Buy Now</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10229"><a href="https://demo4.drfuri.com/razzi/product/basic-dress-green/">Sticky Add To Cart v1</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10230"><a href="https://demo4.drfuri.com/razzi/product/basic-dress-green/?sticky_atc_style=2">Sticky Add To Cart v2</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58 dropdown hasmenu"><a href="https://demo4.drfuri.com/razzi9/blogs/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                                    <ul class="dropdown-submenu">
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10733"><a href="https://demo4.drfuri.com/razzi/blogs/">Blog Grid 2 Columns</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10734"><a href="https://demo4.drfuri.com/razzi/blogs/?blog_ver=2">Blog Grid 3 columns</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10735"><a href="https://demo4.drfuri.com/razzi9/5-tips-to-increase-your-online-sales/">Single Post</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6063 dropdown hasmenu"><a href="https://demo4.drfuri.com/razzi9/contact-us/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-                                    <ul class="dropdown-submenu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6059"><a href="https://demo4.drfuri.com/razzi9/about-us/">About Us</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6061"><a href="https://demo4.drfuri.com/razzi9/faq/">FAQs</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6123"><a href="https://demo4.drfuri.com/razzi9/shipping-returns/">Shipping &amp; Returns</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6062"><a href="https://demo4.drfuri.com/razzi9/store-locator/">Store Locator</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="https://demo4.drfuri.com/razzi9/contact-us/">Contact Us</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9265"><a href="https://demo4.drfuri.com/razzi9/404">404 Page</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11914"><a href="https://demo4.drfuri.com/razzi/coming-soon/?maintenance_enable=true">Coming Soon</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="header-center-items header-items  has-logo">
-                        <div class="site-branding">
-                            <a href="https://demo4.drfuri.com/razzi9/" class="logo ">
-                                <span class="logo-dark"><svg xmlns="http://www.w3.org/2000/svg" width="84.032" height="23.52" viewBox="0 0 84.032 23.52">
-                                        <path d="M2.336-21.344V0H7.264V-8.416L13.024,0H19.04L12.48-8.736a6.716,6.716,0,0,0,2.976-1.632A5.839,5.839,0,0,0,17.12-14.72a6.435,6.435,0,0,0-1.856-4.768,7.635,7.635,0,0,0-5.44-1.856ZM7.264-17.5H8.416a4.815,4.815,0,0,1,2.72.672,2.59,2.59,0,0,1,.992,2.176,2.873,2.873,0,0,1-.8,2.08,4.053,4.053,0,0,1-2.944.928H7.264ZM31.84-12.672a5.354,5.354,0,0,0-4.48-2.08A6.881,6.881,0,0,0,22.4-12.8a8.127,8.127,0,0,0-2.208,5.76A7.552,7.552,0,0,0,22.272-1.7,6.764,6.764,0,0,0,27.616.48,4.756,4.756,0,0,0,31.84-1.728V0h4.608V-14.272H31.84Zm-3.328,1.888a3.856,3.856,0,0,1,2.56.992,3.619,3.619,0,0,1,1.056,2.624,3.625,3.625,0,0,1-1.12,2.688,3.413,3.413,0,0,1-2.4.992,3.785,3.785,0,0,1-2.72-1.12,3.681,3.681,0,0,1-.96-2.56A3.566,3.566,0,0,1,25.984-9.76,3.633,3.633,0,0,1,28.512-10.784Zm25.312-3.488H39.744v3.84h6.3L38.624,0h14.56V-3.84H46.432Zm15.968,0H55.712v3.84h6.3L54.592,0h14.56V-3.84H62.4Zm2.5,0V0H76.9V-14.272Zm-.384-6.08a2.663,2.663,0,0,0,2.688,2.688,2.663,2.663,0,0,0,2.688-2.688,2.663,2.663,0,0,0-2.688-2.688A2.663,2.663,0,0,0,71.9-20.352ZM80.544-2.9A2.88,2.88,0,0,0,83.456.01,2.88,2.88,0,0,0,86.368-2.9a2.88,2.88,0,0,0-2.912-2.91A2.88,2.88,0,0,0,80.544-2.9Z" transform="translate(-2.336 23.04)" />
-                                    </svg></span>
-                            </a>
-                            <p class="site-title">
-                                <a href="https://demo4.drfuri.com/razzi9/" rel="home">Razzi – Furniture v2</a>
-                            </p>
-                            <p class="site-description">Premium WordPress theme</p>
-                        </div>
-                    </div>
-                    <div class="header-right-items header-items  has-logo">
-                        <div class="header-search ra-search-form search-type-icon">
-                            <span class="search-icon" data-toggle="modal" data-target="search-modal">
-                                <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"></circle>
-                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                    </svg></span> </span>
-                        </div>
-                        <div class="header-account">
-                            <a class="account-icon" href="https://demo4.drfuri.com/razzi9/my-account/" data-toggle="modal" data-target="account-modal">
-                                <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                        <circle cx="12" cy="7" r="4"></circle>
-                                    </svg></span> </a>
-                        </div>
-                        <div class="header-wishlist">
-                            <a class="wishlist-icon" href="https://demo4.drfuri.com/razzi9/wishlist/">
-                                <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                                    </svg></span> </a>
-                        </div>
-                        <div class="header-cart">
-                            <a href="https://demo4.drfuri.com/razzi9/cart/" data-toggle="modal" data-target="cart-modal">
-                                <span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"></path>
-                                        <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"></path>
-                                    </svg></span> <span class="counter cart-counter ">1</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-mobile  header-contents logo-default hidden-md hidden-lg">
-                <div class="mobile-menu">
-                    <a href="#" class="mobile-menu-toggle hamburger-menu" data-toggle="modal" data-target="mobile-menu-modal">
-                        <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" width="24" height="18" viewBox="0 0 24 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 0H0V2.10674H24V0Z" />
-                                <path d="M24 7.88215H0V9.98889H24V7.88215Z" />
-                                <path d="M24 15.8925H0V18H24V15.8925Z" />
-                            </svg></span> </a>
-                </div>
-                <div class="site-branding">
-                    <a href="https://demo4.drfuri.com/razzi9/" class="logo ">
-                        <span class="logo-dark"><svg xmlns="http://www.w3.org/2000/svg" width="84.032" height="23.52" viewBox="0 0 84.032 23.52">
-                                <path d="M2.336-21.344V0H7.264V-8.416L13.024,0H19.04L12.48-8.736a6.716,6.716,0,0,0,2.976-1.632A5.839,5.839,0,0,0,17.12-14.72a6.435,6.435,0,0,0-1.856-4.768,7.635,7.635,0,0,0-5.44-1.856ZM7.264-17.5H8.416a4.815,4.815,0,0,1,2.72.672,2.59,2.59,0,0,1,.992,2.176,2.873,2.873,0,0,1-.8,2.08,4.053,4.053,0,0,1-2.944.928H7.264ZM31.84-12.672a5.354,5.354,0,0,0-4.48-2.08A6.881,6.881,0,0,0,22.4-12.8a8.127,8.127,0,0,0-2.208,5.76A7.552,7.552,0,0,0,22.272-1.7,6.764,6.764,0,0,0,27.616.48,4.756,4.756,0,0,0,31.84-1.728V0h4.608V-14.272H31.84Zm-3.328,1.888a3.856,3.856,0,0,1,2.56.992,3.619,3.619,0,0,1,1.056,2.624,3.625,3.625,0,0,1-1.12,2.688,3.413,3.413,0,0,1-2.4.992,3.785,3.785,0,0,1-2.72-1.12,3.681,3.681,0,0,1-.96-2.56A3.566,3.566,0,0,1,25.984-9.76,3.633,3.633,0,0,1,28.512-10.784Zm25.312-3.488H39.744v3.84h6.3L38.624,0h14.56V-3.84H46.432Zm15.968,0H55.712v3.84h6.3L54.592,0h14.56V-3.84H62.4Zm2.5,0V0H76.9V-14.272Zm-.384-6.08a2.663,2.663,0,0,0,2.688,2.688,2.663,2.663,0,0,0,2.688-2.688,2.663,2.663,0,0,0-2.688-2.688A2.663,2.663,0,0,0,71.9-20.352ZM80.544-2.9A2.88,2.88,0,0,0,83.456.01,2.88,2.88,0,0,0,86.368-2.9a2.88,2.88,0,0,0-2.912-2.91A2.88,2.88,0,0,0,80.544-2.9Z" transform="translate(-2.336 23.04)" />
-                            </svg></span>
-                    </a>
-                    <p class="site-title">
-                        <a href="https://demo4.drfuri.com/razzi9/" rel="home">Razzi – Furniture v2</a>
-                    </p>
-                    <p class="site-description">Premium WordPress theme</p>
-                </div>
-                <div class="mobile-header-icons">
-                    <div class="header-wishlist">
-                        <a class="wishlist-icon" href="https://demo4.drfuri.com/razzi9/wishlist/">
-                            <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                                </svg></span> </a>
-                    </div>
-                    <div class="mobile-search">
-                        <a href="#" class="search-icon" data-toggle="modal" data-target="search-modal">
-                            <span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="11" cy="11" r="8"></circle>
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                </svg></span> </a>
-                    </div>
-                    <div class="header-cart">
-                        <a href="https://demo4.drfuri.com/razzi9/cart/" data-toggle="modal" data-target="cart-modal">
-                            <span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"></path>
-                                    <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"></path>
-                                </svg></span> <span class="counter cart-counter ">1</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <x-header></x-header>
         <div id="page-header" class="page-header  page-header--layout-1">
             <div class="page-header__content container">
                 <nav class="site-breadcrumb"><span itemscope itemtype="http://schema.org/ListItem">
@@ -1591,22 +1350,27 @@
                             </tr>
                         </thead>
                         <tbody class="wishlist-items-wrapper">
+                            @foreach($products as $product)
+                            @foreach($_SESSION["wishlist"] as $key=>$value)
+                            @if($product->id == $key)
+
+
                             <tr id="yith-wcwl-row-6831" data-row-id="6831">
                                 <td class="product-remove">
                                     <div>
-                                        <a href="https://demo4.drfuri.com/razzi9/wishlist/view/QJF595GFDJ9C/?remove_from_wishlist=6831&#038;_wpnonce=be3399b821" class="remove remove_from_wishlist" title="Remove this product">&times;</a>
+                                        <a href="removewishlist?id={{$key}}" title="Remove this product">&times;</a>
                                     </div>
                                 </td>
                                 <td class="product-thumbnail">
-                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                        <img width="570" height="684" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /> </a>
+                                    <a href="detail?id={{$product->id}}">
+                                        <img width="570" height="684" src="{{$product->imagepath}}?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /> </a>
                                 </td>
                                 <td class="product-name">
-                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                        Adagio Nightstand </a>
+                                    <a href="detail?id={{$product->id}}">
+                                        {{$product->name}} </a>
                                 </td>
                                 <td class="product-price">
-                                    <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</span></span>
+                                    <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</span></span>
                                 </td>
                                 <td class="product-stock-status">
                                     <span class="wishlist-in-stock">In Stock</span>
@@ -1614,7 +1378,7 @@
                                 <td class="product-add-to-cart">
 
 
-                                    <a href="?add-to-cart=6831&#038;remove_from_wishlist_after_add_to_cart=6831&#038;wishlist_id=74&#038;wishlist_token=QJF595GFDJ9C" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart add_to_cart alt rz-loop_button rz-loop_atc_button" data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;Adagio Nightstand&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="Adagio Nightstand"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <a href="addtocart?id={{$key}}" data-quantity="1"  data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;{{$product->name}}&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="{{$product->name}}"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"></path>
                                                 <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"></path>
                                             </svg></span><span class="add-to-cart-text loop_button-text">Add to cart</span></a>
@@ -1622,6 +1386,9 @@
 
                                 </td>
                             </tr>
+                            @endif
+                            @endforeach
+                            @endforeach
                         </tbody>
                     </table>
                     <div class="yith_wcwl_wishlist_footer">
@@ -1690,7 +1457,7 @@
                                         <li id="menu-item-11234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11234"><a href="https://demo4.drfuri.com/razzi9/contact-us/">Contact Us</a></li>
                                         <li id="menu-item-11235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11235"><a href="https://demo4.drfuri.com/razzi9/faq/">FAQs</a></li>
                                         <li id="menu-item-11236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11236"><a href="https://demo4.drfuri.com/razzi9/shipping-returns/">Shipping &amp; Returns</a></li>
-                                        <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">Product Recalls</a></li>
+                                        <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="detail?id={{$product->id}}">Product Recalls</a></li>
                                         <li id="menu-item-11238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11238"><a href="https://demo4.drfuri.com/razzi9/store-locator/">Store Locator</a></li>
                                     </ul>
                                 </div>
@@ -2676,14 +2443,14 @@
                     <ul class="woocommerce-mini-cart cart_list product_list_widget razzi-scrollbar ">
                         <li class="woocommerce-mini-cart-item mini-cart-item-6831 mini_cart_item">
                             <div class="woocommerce-mini-cart-item__thumbnail">
-                                <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                    <img width="130" height="156" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
+                                <a href="detail?id={{$product->id}}">
+                                    <img width="130" height="156" src="{{$product->imagepath}}?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
                             </div>
                             <div class="woocommerce-mini-cart-item__summary">
                                 <span class="woocommerce-mini-cart-item__name">
-                                    <a class="woocommerce-mini-cart-item__title" href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                        Adagio Nightstand </a>
-                                    <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span></span>
+                                    <a class="woocommerce-mini-cart-item__title" href="detail?id={{$product->id}}">
+                                        {{$product->name}} </a>
+                                    <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span></span>
                                     <span class="woocommerce-mini-cart-item__qty hidden">
                                         QTY: 1 </span>
                                 </span>
@@ -2691,7 +2458,7 @@
                                     <div class="quantity">
                                         <span class="razzi-svg-icon razzi-qty-button decrease"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h368c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
-                                            </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">Adagio Nightstand quantity</label>
+                                            </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">{{$product->name}} quantity</label>
                                         <input type="number" id="quantity_6296563c04c35" class="input-text qty text" step="1" min="0" max="" name="cart[4d0b954f0bef437c29dfa73fafdf3fa5][qty]" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off" />
                                         <span class="razzi-svg-icon razzi-qty-button increase"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
@@ -2707,7 +2474,7 @@
                     </ul>
                     <div class="widget_shopping_cart_footer">
                         <p class="woocommerce-mini-cart__total total">
-                            <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span>
+                            <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span>
                         </p>
                         <div class="razzi-free-shipping-bar">
                             <div class="razzi-free-shipping-bar__message">
