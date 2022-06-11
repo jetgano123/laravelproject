@@ -7,7 +7,7 @@ if(isset($_GET['id'])){
     $id = $_GET['id'];
 }
 if(!isset($_SESSION["cart"])){
-    $_SESSION["cart"] = array();
+    $_SESSION["cart"] = array($id => $id);
 }else{
     $_SESSION["cart"]["$id"] = $id;
 }

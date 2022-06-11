@@ -15,11 +15,7 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/mainpage',[PageController::class,'mainpage']);
+Route::get('/',[PageController::class,'mainpage']);
 Route::get('/login',[PageController::class,'login']);
 Route::get('/cart',[PageController::class,'cart']);
 Route::get('/wishlist',[PageController::class,'wishlist']);
