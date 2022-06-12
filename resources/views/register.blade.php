@@ -1,6 +1,3 @@
-@php
-session_start();
-@endphp
 <!doctype html>
 <html lang="en-US">
 
@@ -11,8 +8,8 @@ session_start();
     <script>
         document.documentElement.className = document.documentElement.className + ' yes-js js_active js'
     </script>
-    <title>Wishlist &#8211; Razzi – Furniture v2</title>
-    <meta name='robots' content='max-image-preview:large' />
+    <title>My account &#8211; Razzi – Furniture v2</title>
+    <meta name='robots' content='max-image-preview:large, noindex, follow' />
     <script>
         window._wca = window._wca || [];
     </script>
@@ -532,6 +529,7 @@ session_start();
         }
     </style>
     <link rel='stylesheet' id='contact-form-7-css' href='https://demo4.drfuri.com/razzi9/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='select2-css' href='https://c0.wp.com/p/woocommerce/6.5.1/assets/css/select2.css' type='text/css' media='all' />
     <style id='woocommerce-inline-inline-css' type='text/css'>
         .woocommerce form .form-row .required {
             visibility: visible;
@@ -668,7 +666,6 @@ session_start();
             }
         }
     </style>
-    <link rel='stylesheet' id='select2-css' href='https://c0.wp.com/p/woocommerce/6.5.1/assets/css/select2.css' type='text/css' media='all' />
     <link rel='stylesheet' id='razzi-child-style-css' href='https://demo4.drfuri.com/razzi9/wp-content/themes/razzi-child/style.css?ver=6.0' type='text/css' media='all' />
     <link rel='stylesheet' id='razzi-woocommerce-style-css' href='https://demo4.drfuri.com/razzi9/wp-content/themes/razzi/woocommerce.css?ver=20220511' type='text/css' media='all' />
     <style id='razzi-woocommerce-style-inline-css' type='text/css'>
@@ -704,6 +701,14 @@ session_start();
     </script>
     <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
     <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+    <script type='text/javascript' id='zxcvbn-async-js-extra'>
+        /* <![CDATA[ */
+        var _zxcvbnSettings = {
+            "src": "https:\/\/demo4.drfuri.com\/razzi9\/wp-includes\/js\/zxcvbn.min.js"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/zxcvbn-async.min.js' id='zxcvbn-async-js'></script>
     <script type='text/javascript' src='https://demo4.drfuri.com/razzi9/wp-content/plugins/razzi-addons/modules/buy-now/assets/buy-now.js?ver=6.0' id='razzi-buy-now-script-js'></script>
     <script type='text/javascript' src='https://demo4.drfuri.com/razzi9/wp-content/plugins/razzi-addons/modules/size-guide/assets/js/size-guide-tab.js?ver=6.0' id='razzi-size-guide-content-js'></script>
     <script defer type='text/javascript' src='https://stats.wp.com/s-202222.js' id='woocommerce-analytics-js'></script>
@@ -714,13 +719,13 @@ session_start();
 <script type='text/javascript' src='https://demo4.drfuri.com/razzi9/wp-content/themes/razzi/assets/js/plugins/respond.min.js?ver=1.4.2' id='respond-js'></script>
 <![endif]-->
     <link rel="https://api.w.org/" href="https://demo4.drfuri.com/razzi9/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://demo4.drfuri.com/razzi9/wp-json/wp/v2/pages/9" />
+    <link rel="alternate" type="application/json" href="https://demo4.drfuri.com/razzi9/wp-json/wp/v2/pages/8" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo4.drfuri.com/razzi9/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demo4.drfuri.com/razzi9/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0" />
     <meta name="generator" content="WooCommerce 6.5.1" />
-    <link rel="canonical" href="https://demo4.drfuri.com/razzi9/wishlist/" />
-    <link rel='shortlink' href='https://demo4.drfuri.com/razzi9/?p=9' />
+    <link rel="canonical" href="https://demo4.drfuri.com/razzi9/my-account/" />
+    <link rel='shortlink' href='https://demo4.drfuri.com/razzi9/?p=8' />
     <style type='text/css'>
         img#wpstats {
             display: none
@@ -1170,17 +1175,10 @@ session_start();
             src: url(https://demo4.drfuri.com/razzi9/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVBNI4un_HKCEk.woff) format('woff');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
-    </style><noscript>
-        <style id="rocket-lazyload-nojs-css">
-            .rll-youtube-player,
-            [data-lazy-src] {
-                display: none !important;
-            }
-        </style>
-    </noscript>
+    </style>
 </head>
 
-<body class="page-template-default page page-id-9 wp-embed-responsive theme-razzi woocommerce-no-js woocommerce-wishlist woocommerce woocommerce-page woocommerce-active product-qty-number full-content header-default header-v8 header-sticky elementor-default elementor-kit-55 currency-gbp">
+<body class="page-template-default page page-id-8 wp-embed-responsive theme-razzi woocommerce-account woocommerce-page woocommerce-no-js woocommerce-active product-qty-number full-content header-default header-v8 header-sticky elementor-default elementor-kit-55 currency-gbp">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
             <filter id="wp-duotone-dark-grayscale">
@@ -1288,9 +1286,6 @@ session_start();
     </svg>
     <div id="page" class="site">
         <div id="site-header-minimized"></div>
-<<<<<<< HEAD
-        <x-header></x-header>
-=======
         <header id="site-header" class="site-header header-bottom-no-sticky site-header__border">
             <div class="header-main header-contents hidden-xs hidden-sm has-center logo-center">
                 <div class="razzi-header-container container">
@@ -1400,8 +1395,8 @@ session_start();
                                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7061"><a class=" is-label">Woo Pages</a></li>
                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6057"><a href="https://demo4.drfuri.com/razzi9/cart/">Cart</a></li>
                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6056"><a href="https://demo4.drfuri.com/razzi9/checkout/">Checkout</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-7062 active"><a href="https://demo4.drfuri.com/razzi9/wishlist/">Wishlist</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6055"><a href="https://demo4.drfuri.com/razzi9/my-account/">My account</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7062"><a href="https://demo4.drfuri.com/razzi9/wishlist/">Wishlist</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8 current_page_item menu-item-6055 active"><a href="https://demo4.drfuri.com/razzi9/my-account/">My account</a></li>
                                                 </ul>
                                             </div>
                                             <div class="menu-item-mega mr-col col-flex col-flex-md-3">
@@ -1536,7 +1531,6 @@ session_start();
                 </div>
             </div>
         </header>
->>>>>>> vq
         <div id="page-header" class="page-header  page-header--layout-1">
             <div class="page-header__content container">
                 <nav class="site-breadcrumb"><span itemscope itemtype="http://schema.org/ListItem">
@@ -1545,157 +1539,375 @@ session_start();
                             <polyline points="9 18 15 12 9 6"></polyline>
                         </svg></span>
                     <span itemscope itemtype="http://schema.org/ListItem">
-                        <span><span>Wishlist</span></span>
+                        <span><span>My account</span></span>
                     </span>
                 </nav>
-                <h1 class="page-header__title ">Wishlist</h1>
+                <h1 class="page-header__title ">My account</h1>
             </div>
         </div>
         <div id="content" class="site-content ">
-            <article id="post-9" class="post-9 page type-page status-publish hentry layout-v1 product-add-to-cart-ajax  ">
-                <form id="yith-wcwl-form" action="https://demo4.drfuri.com/razzi9/wishlist/view/QJF595GFDJ9C/" method="post" class="woocommerce yith-wcwl-form wishlist-fragment" data-fragment-options="{&quot;per_page&quot;:5,&quot;current_page&quot;:1,&quot;pagination&quot;:&quot;no&quot;,&quot;wishlist_id&quot;:74,&quot;action_params&quot;:&quot;&quot;,&quot;no_interactions&quot;:false,&quot;layout&quot;:&quot;&quot;,&quot;is_default&quot;:true,&quot;is_custom_list&quot;:true,&quot;wishlist_token&quot;:&quot;QJF595GFDJ9C&quot;,&quot;is_private&quot;:false,&quot;count&quot;:1,&quot;page_title&quot;:&quot;My wishlist&quot;,&quot;default_wishlsit_title&quot;:&quot;My wishlist&quot;,&quot;page_links&quot;:false,&quot;is_user_logged_in&quot;:false,&quot;is_user_owner&quot;:true,&quot;can_user_edit_title&quot;:true,&quot;show_price&quot;:true,&quot;show_dateadded&quot;:false,&quot;show_stock_status&quot;:true,&quot;show_add_to_cart&quot;:true,&quot;show_remove_product&quot;:true,&quot;add_to_cart_text&quot;:&quot;Add to cart&quot;,&quot;show_ask_estimate_button&quot;:false,&quot;ask_estimate_url&quot;:&quot;&quot;,&quot;price_excl_tax&quot;:true,&quot;show_cb&quot;:false,&quot;show_quantity&quot;:false,&quot;show_variation&quot;:false,&quot;show_price_variations&quot;:false,&quot;show_update&quot;:false,&quot;enable_drag_n_drop&quot;:false,&quot;enable_add_all_to_cart&quot;:false,&quot;move_to_another_wishlist&quot;:false,&quot;repeat_remove_button&quot;:false,&quot;show_last_column&quot;:true,&quot;heading_icon&quot;:&quot;&lt;i class=\&quot;fa fa-heart-o\&quot;&gt;&lt;\/i&gt;&quot;,&quot;share_enabled&quot;:true,&quot;template_part&quot;:&quot;view&quot;,&quot;additional_info&quot;:false,&quot;available_multi_wishlist&quot;:false,&quot;form_action&quot;:&quot;https:\/\/demo4.drfuri.com\/razzi9\/wishlist\/view\/QJF595GFDJ9C\/&quot;,&quot;ajax_loading&quot;:false,&quot;item&quot;:&quot;wishlist&quot;}">
+            <article id="post-8" class="post-8 page type-page status-publish hentry layout-v1 product-add-to-cart-ajax  ">
+                <div class="woocommerce">
+                    @if($errors->any())
+                        {{$errors->first()}}
+                        @endif
+                        <div class="u-column2 col-2">
+                            <h2>Register</h2>
+                            <form method="post" action={{ route( "custom.Register" )}} class="woocommerce-form woocommerce-form-register RegisterController">
+                            @csrf
 
-                    <div class="wishlist-title-container">
-                        <div class="wishlist-title wishlist-title-with-form">
-                            <h2>My wishlist</h2> <a class="btn button show-title-form">
-                                <i class="fa fa-pencil"></i> Edit title </a>
-                        </div>
-                        <div class="hidden-title-form">
-                            <input type="text" value="My wishlist" name="wishlist_name" />
-                            <div class="edit-title-buttons">
-                                <a role="button" href="#" class="hide-title-form">
-                                    <i class="fa fa-remove"></i> </a>
-                                <a role="button" href="#" class="save-title-form">
-                                    <i class="fa fa-check"></i> </a>
-                            </div>
+                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                    <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="reg_username" autocomplete="username" placeholder="Username *" value="" />
+                                </p>
+                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                    <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" placeholder="Email Address *" value="" />
+                                </p>
+                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                    <input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password" placeholder="Password *" />
+                                </p>
+                                <div class="woocommerce-privacy-policy-text"></div>
+                                <p class="woocommerce-form-row form-row">
+                                    <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="f8c16db6d8" /><input type="hidden" name="_wp_http_referer" value="/razzi9/my-account/" /> <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Register">Register</button>
+                                </p>
+                                <style type="text/css">
+                                    div.nsl-container[data-align="left"] {
+                                        text-align: left;
+                                    }
+
+                                    div.nsl-container[data-align="center"] {
+                                        text-align: center;
+                                    }
+
+                                    div.nsl-container[data-align="right"] {
+                                        text-align: right;
+                                    }
+
+
+                                    div.nsl-container .nsl-container-buttons a {
+                                        text-decoration: none !important;
+                                        box-shadow: none !important;
+                                        border: 0;
+                                    }
+
+                                    div.nsl-container .nsl-container-buttons {
+                                        display: flex;
+                                        padding: 5px 0;
+                                    }
+
+                                    div.nsl-container.nsl-container-block .nsl-container-buttons {
+                                        display: inline-grid;
+                                        grid-template-columns: minmax(145px, auto);
+                                    }
+
+                                    div.nsl-container-block-fullwidth .nsl-container-buttons {
+                                        flex-flow: column;
+                                        align-items: center;
+                                    }
+
+                                    div.nsl-container-block-fullwidth .nsl-container-buttons a,
+                                    div.nsl-container-block .nsl-container-buttons a {
+                                        flex: 1 1 auto;
+                                        display: block;
+                                        margin: 5px 0;
+                                        width: 100%;
+                                    }
+
+                                    div.nsl-container-inline {
+                                        margin: -5px;
+                                        text-align: left;
+                                    }
+
+                                    div.nsl-container-inline .nsl-container-buttons {
+                                        justify-content: center;
+                                        flex-wrap: wrap;
+                                    }
+
+                                    div.nsl-container-inline .nsl-container-buttons a {
+                                        margin: 5px;
+                                        display: inline-block;
+                                    }
+
+                                    div.nsl-container-grid .nsl-container-buttons {
+                                        flex-flow: row;
+                                        align-items: center;
+                                        flex-wrap: wrap;
+                                    }
+
+                                    div.nsl-container-grid .nsl-container-buttons a {
+                                        flex: 1 1 auto;
+                                        display: block;
+                                        margin: 5px;
+                                        max-width: 280px;
+                                        width: 100%;
+                                    }
+
+                                    @media only screen and (min-width: 650px) {
+                                        div.nsl-container-grid .nsl-container-buttons a {
+                                            width: auto;
+                                        }
+                                    }
+
+                                    div.nsl-container .nsl-button {
+                                        cursor: pointer;
+                                        vertical-align: top;
+                                        border-radius: 4px;
+                                    }
+
+                                    div.nsl-container .nsl-button-default {
+                                        color: #fff;
+                                        display: flex;
+                                    }
+
+                                    div.nsl-container .nsl-button-icon {
+                                        display: inline-block;
+                                    }
+
+                                    div.nsl-container .nsl-button-svg-container {
+                                        flex: 0 0 auto;
+                                        padding: 8px;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+
+                                    div.nsl-container svg {
+                                        height: 24px;
+                                        width: 24px;
+                                        vertical-align: top;
+                                    }
+
+                                    div.nsl-container .nsl-button-default div.nsl-button-label-container {
+                                        margin: 0 24px 0 12px;
+                                        padding: 10px 0;
+                                        font-family: Helvetica, Arial, sans-serif;
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                        letter-spacing: .25px;
+                                        overflow: hidden;
+                                        text-align: center;
+                                        text-overflow: clip;
+                                        white-space: nowrap;
+                                        flex: 1 1 auto;
+                                        -webkit-font-smoothing: antialiased;
+                                        -moz-osx-font-smoothing: grayscale;
+                                        text-transform: none;
+                                        display: inline-block;
+                                    }
+
+                                    div.nsl-container .nsl-button-google[data-skin="dark"] .nsl-button-svg-container {
+                                        margin: 1px;
+                                        padding: 7px;
+                                        border-radius: 3px;
+                                        background: #fff;
+                                    }
+
+                                    div.nsl-container .nsl-button-google[data-skin="light"] {
+                                        border-radius: 1px;
+                                        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
+                                        color: RGBA(0, 0, 0, 0.54);
+                                    }
+
+                                    div.nsl-container .nsl-button-apple .nsl-button-svg-container {
+                                        padding: 0 6px;
+                                    }
+
+                                    div.nsl-container .nsl-button-apple .nsl-button-svg-container svg {
+                                        height: 40px;
+                                        width: auto;
+                                    }
+
+                                    div.nsl-container .nsl-button-apple[data-skin="light"] {
+                                        color: #000;
+                                        box-shadow: 0 0 0 1px #000;
+                                    }
+
+                                    div.nsl-container .nsl-button-facebook[data-skin="white"] {
+                                        color: #000;
+                                        box-shadow: inset 0 0 0 1px #000;
+                                    }
+
+                                    div.nsl-container .nsl-button-facebook[data-skin="light"] {
+                                        color: #1877F2;
+                                        box-shadow: inset 0 0 0 1px #1877F2;
+                                    }
+
+                                    div.nsl-container .nsl-button-apple div.nsl-button-label-container {
+                                        font-size: 17px;
+                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                                    }
+
+                                    div.nsl-container .nsl-button-slack div.nsl-button-label-container {
+                                        font-size: 17px;
+                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                                    }
+
+                                    div.nsl-container .nsl-button-slack[data-skin="light"] {
+                                        color: #000000;
+                                        box-shadow: inset 0 0 0 1px #DDDDDD;
+                                    }
+
+                                    .nsl-clear {
+                                        clear: both;
+                                    }
+
+                                    .nsl-container {
+                                        clear: both;
+                                    }
+
+                                    /*Button align start*/
+
+                                    div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
+                                        justify-content: flex-start;
+                                    }
+
+                                    div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
+                                        justify-content: center;
+                                    }
+
+                                    div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
+                                        justify-content: flex-end;
+                                    }
+
+
+                                    div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
+                                        justify-content: flex-start;
+                                    }
+
+                                    div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
+                                        justify-content: center;
+                                    }
+
+                                    div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
+                                        justify-content: flex-end;
+                                    }
+
+                                    div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
+                                        justify-content: space-around;
+                                    }
+
+                                    div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
+                                        justify-content: space-between;
+                                    }
+
+                                    /* Button align end*/
+
+                                    /* Redirect */
+
+                                    #nsl-redirect-overlay {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        position: fixed;
+                                        z-index: 1000000;
+                                        left: 0;
+                                        top: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        backdrop-filter: blur(1px);
+                                        background-color: RGBA(0, 0, 0, .32);
+                                        ;
+                                    }
+
+                                    #nsl-redirect-overlay-container {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background-color: white;
+                                        padding: 30px;
+                                        border-radius: 10px;
+                                    }
+
+                                    #nsl-redirect-overlay-spinner {
+                                        content: '';
+                                        display: block;
+                                        margin: 20px;
+                                        border: 9px solid RGBA(0, 0, 0, .6);
+                                        border-top: 9px solid #fff;
+                                        border-radius: 50%;
+                                        box-shadow: inset 0 0 0 1px RGBA(0, 0, 0, .6), 0 0 0 1px RGBA(0, 0, 0, .6);
+                                        width: 40px;
+                                        height: 40px;
+                                        animation: nsl-loader-spin 2s linear infinite;
+                                    }
+
+                                    @keyframes nsl-loader-spin {
+                                        0% {
+                                            transform: rotate(0deg)
+                                        }
+
+                                        to {
+                                            transform: rotate(360deg)
+                                        }
+                                    }
+
+                                    #nsl-redirect-overlay-title {
+                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+                                        font-size: 18px;
+                                        font-weight: bold;
+                                        color: #3C434A;
+                                    }
+
+                                    #nsl-redirect-overlay-text {
+                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+                                        text-align: center;
+                                        font-size: 14px;
+                                        color: #3C434A;
+                                    }
+
+                                    /* Redirect END*/
+                                </style>
+                                <div id="nsl-custom-login-form-2">
+                                    <div class="nsl-container nsl-container-block" data-align="left">
+                                        <div class="nsl-container-buttons"><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=facebook&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fmy-account%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Facebook&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="facebook" data-popupwidth="600" data-popupheight="679">
+                                                <div class="nsl-button nsl-button-default nsl-button-facebook" data-skin="dark" style="background-color:#1877F2;">
+                                                    <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1365.3 1365.3" height="1365.3" width="1365.3">
+                                                            <path d="M1365.3 682.7A682.7 682.7 0 10576 1357V880H402.7V682.7H576V532.3c0-171.1 102-265.6 257.9-265.6 74.6 0 152.8 13.3 152.8 13.3v168h-86.1c-84.8 0-111.3 52.6-111.3 106.6v128h189.4L948.4 880h-159v477a682.8 682.8 0 00576-674.3" fill="#fff" />
+                                                        </svg></div>
+                                                    <div class="nsl-button-label-container">Continue with <b>Facebook</b></div>
+                                                </div>
+                                            </a><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=google&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fmy-account%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Google&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="google" data-popupwidth="600" data-popupheight="600">
+                                                <div class="nsl-button nsl-button-default nsl-button-google" data-skin="uniform" style="background-color:#dc4e41;">
+                                                    <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path fill="#fff" fill-rule="evenodd" d="M11.988,14.28 L11.988,9.816 L23.22,9.816 C23.388,10.572 23.52,11.28 23.52,12.276 C23.52,19.128 18.924,24 12,24 C5.376,24 -9.47390314e-15,18.624 -9.47390314e-15,12 C-9.47390314e-15,5.376 5.376,0 12,0 C15.24,0 17.952,1.188 20.028,3.132 L16.62,6.444 C15.756,5.628 14.244,4.668 12,4.668 C8.028,4.668 4.788,7.968 4.788,12.012 C4.788,16.056 8.028,19.356 12,19.356 C16.596,19.356 18.288,16.176 18.6,14.292 L11.988,14.292 L11.988,14.28 Z" />
+                                                        </svg></div>
+                                                    <div class="nsl-button-label-container">Continue with <b>Google</b></div>
+                                                </div>
+                                            </a></div>
+                                    </div>
+                                </div>
+                                <script type="text/javascript">
+                                    window._nslDOMReady(function() {
+                                        var container = document.getElementById('nsl-custom-login-form-2'),
+                                            form = container.closest('form');
+
+                                        var innerContainer = container.querySelector('.nsl-container');
+                                        if (innerContainer) {
+                                            innerContainer.classList.add('nsl-container-embedded-login-layout-below');
+                                            innerContainer.style.display = 'block';
+                                        }
+
+                                        form.appendChild(container);
+                                    });
+                                </script>
+                                <style type="text/css">
+                                    #nsl-custom-login-form-2 .nsl-container {
+                                        display: none;
+                                    }
+
+                                    #nsl-custom-login-form-2 .nsl-container-embedded-login-layout-below {
+                                        clear: both;
+                                        padding: 20px 0 0;
+                                    }
+
+                                    .login form {
+                                        padding-bottom: 20px;
+                                    }
+                                </style>
+                            </form>
                         </div>
                     </div>
-
-                    <table class="shop_table cart wishlist_table wishlist_view traditional responsive   " data-pagination="no" data-per-page="5" data-page="1" data-id="74" data-token="QJF595GFDJ9C">
-                        <thead>
-                            <tr>
-                                <th class="product-remove">
-                                    <span class="nobr">
-                                    </span>
-                                </th>
-                                <th class="product-thumbnail"></th>
-                                <th class="product-name">
-                                    <span class="nobr">
-                                        Product name </span>
-                                </th>
-                                <th class="product-price">
-                                    <span class="nobr">
-                                        Unit price </span>
-                                </th>
-                                <th class="product-stock-status">
-                                    <span class="nobr">
-                                        Stock status </span>
-                                </th>
-                                <th class="product-add-to-cart">
-                                    <span class="nobr">
-                                    </span>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody class="wishlist-items-wrapper">
-<<<<<<< HEAD
-                            @foreach($products as $product)
-                            @foreach($_SESSION["wishlist"] as $key=>$value)
-                            @if($product->id == $key)
-
-
-                            <tr id="yith-wcwl-row-6831" data-row-id="6831">
-                                <td class="product-remove">
-                                    <div>
-                                        <a href="removewishlist?id={{$key}}" title="Remove this product">&times;</a>
-                                    </div>
-                                </td>
-                                <td class="product-thumbnail">
-                                    <a href="detail?id={{$product->id}}">
-                                        <img width="570" height="684" src="{{$product->imagepath}}?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /> </a>
-                                </td>
-                                <td class="product-name">
-                                    <a href="detail?id={{$product->id}}">
-                                        {{$product->name}} </a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</span></span>
-=======
-                            <tr id="yith-wcwl-row-6831" data-row-id="6831">
-                                <td class="product-remove">
-                                    <div>
-                                        <a href="https://demo4.drfuri.com/razzi9/wishlist/view/QJF595GFDJ9C/?remove_from_wishlist=6831&#038;_wpnonce=be3399b821" class="remove remove_from_wishlist" title="Remove this product">&times;</a>
-                                    </div>
-                                </td>
-                                <td class="product-thumbnail">
-                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                        <img width="570" height="684" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /> </a>
-                                </td>
-                                <td class="product-name">
-                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
-                                        Adagio Nightstand </a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</span></span>
->>>>>>> vq
-                                </td>
-                                <td class="product-stock-status">
-                                    <span class="wishlist-in-stock">In Stock</span>
-                                </td>
-                                <td class="product-add-to-cart">
-
-
-<<<<<<< HEAD
-                                    <a href="addtocart?id={{$key}}" data-quantity="1" data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;{{$product->name}}&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="{{$product->name}}"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-=======
-                                    <a href="?add-to-cart=6831&#038;remove_from_wishlist_after_add_to_cart=6831&#038;wishlist_id=74&#038;wishlist_token=QJF595GFDJ9C" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart add_to_cart alt rz-loop_button rz-loop_atc_button" data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;Adagio Nightstand&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="Adagio Nightstand"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
->>>>>>> vq
-                                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"></path>
-                                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"></path>
-                                            </svg></span><span class="add-to-cart-text loop_button-text">Add to cart</span></a>
-
-
-                                </td>
-                            </tr>
-<<<<<<< HEAD
-                            @endif
-                            @endforeach
-                            @endforeach
-                            
-=======
->>>>>>> vq
-                        </tbody>
-                    </table>
-                    <div class="yith_wcwl_wishlist_footer">
-
-                        <div class="yith-wcwl-share">
-                            <h4 class="yith-wcwl-share-title">Share on:</h4>
-                            <ul>
-                                <li class="share-button">
-                                    <a target="_blank" rel="noopener" class="facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2Fview%2FQJF595GFDJ9C%2F&p[title]=My+wishlist+on+WooCommerce+WordPress+Theme" title="Facebook">
-                                        <i class='fa fa-facebook'></i> </a>
-                                </li>
-                                <li class="share-button">
-                                    <a target="_blank" rel="noopener" class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2Fview%2FQJF595GFDJ9C%2F&amp;text=" title="Twitter">
-                                        <i class='fa fa-twitter'></i> </a>
-                                </li>
-                                <li class="share-button">
-                                    <a target="_blank" rel="noopener" class="pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2Fview%2FQJF595GFDJ9C%2F&amp;description=&amp;media=" title="Pinterest" onclick="window.open(this.href); return false;">
-                                        <i class='fa fa-pinterest'></i> </a>
-                                </li>
-                                <li class="share-button">
-                                    <a class="email" href="/cdn-cgi/l/email-protection#7e410d0b1c141b1d0a4333075509170d1612170d0a551110552911113d1113131b0c1d1b5529110c1a2e0c1b0d0d552a161b131b581f130e451c111a0743160a0a0e0d5b4d3f5b4c385b4c381a1b13114a501a0c180b0c17501d11135b4c380c1f040417475b4c3809170d1612170d0a5b4c3808171b095b4c382f34384b474b39383a34473d5b4c38581f130e450a170a121b4333075509170d1612170d0a551110552911113d1113131b0c1d1b5529110c1a2e0c1b0d0d552a161b131b" title="Email">
-                                        <i class='fa fa-envelope-o'></i> </a>
-                                </li>
-                                <li class="share-button">
-                                    <a class="whatsapp" href="https://web.whatsapp.com/send?text=My+wishlist+on+WooCommerce+WordPress+Theme - https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2Fview%2FQJF595GFDJ9C%2F" data-action="share/whatsapp/share" target="_blank" rel="noopener" title="WhatsApp">
-                                        <i class='fa fa-whatsapp'></i> </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <input type="hidden" id="yith_wcwl_edit_wishlist" name="yith_wcwl_edit_wishlist" value="68e826339a" /><input type="hidden" name="_wp_http_referer" value="/razzi9/wishlist/" /> <input type="hidden" value="QJF595GFDJ9C" name="wishlist_id" id="wishlist_id">
-                </form>
+                </div>
             </article>
         </div>
         <footer id="site-footer" class="site-footer site-footer-light">
@@ -1732,11 +1944,7 @@ session_start();
                                         <li id="menu-item-11234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11234"><a href="https://demo4.drfuri.com/razzi9/contact-us/">Contact Us</a></li>
                                         <li id="menu-item-11235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11235"><a href="https://demo4.drfuri.com/razzi9/faq/">FAQs</a></li>
                                         <li id="menu-item-11236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11236"><a href="https://demo4.drfuri.com/razzi9/shipping-returns/">Shipping &amp; Returns</a></li>
-<<<<<<< HEAD
-                                        <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="detail?id={{$product->id}}">Product Recalls</a></li>
-=======
                                         <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">Product Recalls</a></li>
->>>>>>> vq
                                         <li id="menu-item-11238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11238"><a href="https://demo4.drfuri.com/razzi9/store-locator/">Store Locator</a></li>
                                     </ul>
                                 </div>
@@ -1747,7 +1955,7 @@ session_start();
                                 <h2 class="widget-title">CONTACT</h2>
                                 <div class="textwidget">
                                     <p>Phone: 1-888-923-8044<br />
-                                        Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93e1f2e9e9fad3f7e1f5e6e1fabdf0fcfe">[email&#160;protected]</a><br />
+                                        Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2c5e4d5656456c485e4a595e45024f4341">[email&#160;protected]</a><br />
                                         Working hours from 8AM &#8211; 18AM EST</p>
                                 </div>
                             </div>
@@ -1913,8 +2121,8 @@ session_start();
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7061"><a>Woo Pages</a></li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6057"><a href="https://demo4.drfuri.com/razzi9/cart/">Cart</a></li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6056"><a href="https://demo4.drfuri.com/razzi9/checkout/">Checkout</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-7062 active"><a href="https://demo4.drfuri.com/razzi9/wishlist/">Wishlist</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6055"><a href="https://demo4.drfuri.com/razzi9/my-account/">My account</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7062"><a href="https://demo4.drfuri.com/razzi9/wishlist/">Wishlist</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8 current_page_item menu-item-6055 active"><a href="https://demo4.drfuri.com/razzi9/my-account/">My account</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7220"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Hover</a>
@@ -1978,734 +2186,6 @@ session_start();
             </div>
         </div>
     </div>
-    <div id="account-modal" class="account-modal rz-modal ra-account-modal" tabindex="-1" role="dialog">
-        <div class="off-modal-layer"></div>
-        <div class="account-panel-content panel-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Sign in</h3>
-                <a href="#" class="close-account-panel button-close"><span class="razzi-svg-icon "><svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                            <line x1="6" y1="6" x2="18" y2="18"></line>
-                        </svg></span></a>
-            </div>
-            <div class="modal-content">
-                <form class="woocommerce woocommerce-account woocommerce-form woocommerce-form-login login" method="post">
-                    <p class="form-row form-row-wide">
-                        <input placeholder="Username" type="text" class="input-text" name="username" id="panel_username" />
-                    </p>
-                    <p class="form-row form-row-wide">
-                        <span class="password-input">
-                            <input placeholder="Password" class="input-text" type="password" name="password" id="panel_password" />
-                        </span>
-                    </p>
-                    <p class="form-row form-row-wide form-row-remember">
-                        <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
-                            <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" value="forever" />
-                            <span>Remember me</span>
-                        </label>
-                        <label class="form-row form-row-wide lost_password">
-                            <a href="https://demo4.drfuri.com/razzi9/my-account/lost-password/">Lost your password?</a>
-                        </label>
-                    </p>
-                    <p class="form-row form-row-wide">
-                        <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="91e53e4a3b" /><input type="hidden" name="_wp_http_referer" value="/razzi9/wishlist/" /> <button type="submit" class="razzi-button" name="login" value="Sign in" data-signing="Siging in..." data-signed="Signed In">Sign in</button>
-                        <span class="create-account razzi-button button-outline button-medium">Create An Account</span>
-                    </p>
-                    <style type="text/css">
-                        div.nsl-container[data-align="left"] {
-                            text-align: left;
-                        }
-
-                        div.nsl-container[data-align="center"] {
-                            text-align: center;
-                        }
-
-                        div.nsl-container[data-align="right"] {
-                            text-align: right;
-                        }
-
-
-                        div.nsl-container .nsl-container-buttons a {
-                            text-decoration: none !important;
-                            box-shadow: none !important;
-                            border: 0;
-                        }
-
-                        div.nsl-container .nsl-container-buttons {
-                            display: flex;
-                            padding: 5px 0;
-                        }
-
-                        div.nsl-container.nsl-container-block .nsl-container-buttons {
-                            display: inline-grid;
-                            grid-template-columns: minmax(145px, auto);
-                        }
-
-                        div.nsl-container-block-fullwidth .nsl-container-buttons {
-                            flex-flow: column;
-                            align-items: center;
-                        }
-
-                        div.nsl-container-block-fullwidth .nsl-container-buttons a,
-                        div.nsl-container-block .nsl-container-buttons a {
-                            flex: 1 1 auto;
-                            display: block;
-                            margin: 5px 0;
-                            width: 100%;
-                        }
-
-                        div.nsl-container-inline {
-                            margin: -5px;
-                            text-align: left;
-                        }
-
-                        div.nsl-container-inline .nsl-container-buttons {
-                            justify-content: center;
-                            flex-wrap: wrap;
-                        }
-
-                        div.nsl-container-inline .nsl-container-buttons a {
-                            margin: 5px;
-                            display: inline-block;
-                        }
-
-                        div.nsl-container-grid .nsl-container-buttons {
-                            flex-flow: row;
-                            align-items: center;
-                            flex-wrap: wrap;
-                        }
-
-                        div.nsl-container-grid .nsl-container-buttons a {
-                            flex: 1 1 auto;
-                            display: block;
-                            margin: 5px;
-                            max-width: 280px;
-                            width: 100%;
-                        }
-
-                        @media only screen and (min-width: 650px) {
-                            div.nsl-container-grid .nsl-container-buttons a {
-                                width: auto;
-                            }
-                        }
-
-                        div.nsl-container .nsl-button {
-                            cursor: pointer;
-                            vertical-align: top;
-                            border-radius: 4px;
-                        }
-
-                        div.nsl-container .nsl-button-default {
-                            color: #fff;
-                            display: flex;
-                        }
-
-                        div.nsl-container .nsl-button-icon {
-                            display: inline-block;
-                        }
-
-                        div.nsl-container .nsl-button-svg-container {
-                            flex: 0 0 auto;
-                            padding: 8px;
-                            display: flex;
-                            align-items: center;
-                        }
-
-                        div.nsl-container svg {
-                            height: 24px;
-                            width: 24px;
-                            vertical-align: top;
-                        }
-
-                        div.nsl-container .nsl-button-default div.nsl-button-label-container {
-                            margin: 0 24px 0 12px;
-                            padding: 10px 0;
-                            font-family: Helvetica, Arial, sans-serif;
-                            font-size: 16px;
-                            line-height: 20px;
-                            letter-spacing: .25px;
-                            overflow: hidden;
-                            text-align: center;
-                            text-overflow: clip;
-                            white-space: nowrap;
-                            flex: 1 1 auto;
-                            -webkit-font-smoothing: antialiased;
-                            -moz-osx-font-smoothing: grayscale;
-                            text-transform: none;
-                            display: inline-block;
-                        }
-
-                        div.nsl-container .nsl-button-google[data-skin="dark"] .nsl-button-svg-container {
-                            margin: 1px;
-                            padding: 7px;
-                            border-radius: 3px;
-                            background: #fff;
-                        }
-
-                        div.nsl-container .nsl-button-google[data-skin="light"] {
-                            border-radius: 1px;
-                            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
-                            color: RGBA(0, 0, 0, 0.54);
-                        }
-
-                        div.nsl-container .nsl-button-apple .nsl-button-svg-container {
-                            padding: 0 6px;
-                        }
-
-                        div.nsl-container .nsl-button-apple .nsl-button-svg-container svg {
-                            height: 40px;
-                            width: auto;
-                        }
-
-                        div.nsl-container .nsl-button-apple[data-skin="light"] {
-                            color: #000;
-                            box-shadow: 0 0 0 1px #000;
-                        }
-
-                        div.nsl-container .nsl-button-facebook[data-skin="white"] {
-                            color: #000;
-                            box-shadow: inset 0 0 0 1px #000;
-                        }
-
-                        div.nsl-container .nsl-button-facebook[data-skin="light"] {
-                            color: #1877F2;
-                            box-shadow: inset 0 0 0 1px #1877F2;
-                        }
-
-                        div.nsl-container .nsl-button-apple div.nsl-button-label-container {
-                            font-size: 17px;
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                        }
-
-                        div.nsl-container .nsl-button-slack div.nsl-button-label-container {
-                            font-size: 17px;
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                        }
-
-                        div.nsl-container .nsl-button-slack[data-skin="light"] {
-                            color: #000000;
-                            box-shadow: inset 0 0 0 1px #DDDDDD;
-                        }
-
-                        .nsl-clear {
-                            clear: both;
-                        }
-
-                        .nsl-container {
-                            clear: both;
-                        }
-
-                        /*Button align start*/
-
-                        div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
-                            justify-content: flex-start;
-                        }
-
-                        div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
-                            justify-content: center;
-                        }
-
-                        div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
-                            justify-content: flex-end;
-                        }
-
-
-                        div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
-                            justify-content: flex-start;
-                        }
-
-                        div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
-                            justify-content: center;
-                        }
-
-                        div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
-                            justify-content: flex-end;
-                        }
-
-                        div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
-                            justify-content: space-around;
-                        }
-
-                        div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
-                            justify-content: space-between;
-                        }
-
-                        /* Button align end*/
-
-                        /* Redirect */
-
-                        #nsl-redirect-overlay {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            position: fixed;
-                            z-index: 1000000;
-                            left: 0;
-                            top: 0;
-                            width: 100%;
-                            height: 100%;
-                            backdrop-filter: blur(1px);
-                            background-color: RGBA(0, 0, 0, .32);
-                            ;
-                        }
-
-                        #nsl-redirect-overlay-container {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            background-color: white;
-                            padding: 30px;
-                            border-radius: 10px;
-                        }
-
-                        #nsl-redirect-overlay-spinner {
-                            content: '';
-                            display: block;
-                            margin: 20px;
-                            border: 9px solid RGBA(0, 0, 0, .6);
-                            border-top: 9px solid #fff;
-                            border-radius: 50%;
-                            box-shadow: inset 0 0 0 1px RGBA(0, 0, 0, .6), 0 0 0 1px RGBA(0, 0, 0, .6);
-                            width: 40px;
-                            height: 40px;
-                            animation: nsl-loader-spin 2s linear infinite;
-                        }
-
-                        @keyframes nsl-loader-spin {
-                            0% {
-                                transform: rotate(0deg)
-                            }
-
-                            to {
-                                transform: rotate(360deg)
-                            }
-                        }
-
-                        #nsl-redirect-overlay-title {
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-                            font-size: 18px;
-                            font-weight: bold;
-                            color: #3C434A;
-                        }
-
-                        #nsl-redirect-overlay-text {
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-                            text-align: center;
-                            font-size: 14px;
-                            color: #3C434A;
-                        }
-
-                        /* Redirect END*/
-                    </style>
-                    <div id="nsl-custom-login-form-1">
-                        <div class="nsl-container nsl-container-block" data-align="left">
-                            <div class="nsl-container-buttons"><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=facebook&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Facebook&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="facebook" data-popupwidth="600" data-popupheight="679">
-                                    <div class="nsl-button nsl-button-default nsl-button-facebook" data-skin="dark" style="background-color:#1877F2;">
-                                        <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1365.3 1365.3" height="1365.3" width="1365.3">
-                                                <path d="M1365.3 682.7A682.7 682.7 0 10576 1357V880H402.7V682.7H576V532.3c0-171.1 102-265.6 257.9-265.6 74.6 0 152.8 13.3 152.8 13.3v168h-86.1c-84.8 0-111.3 52.6-111.3 106.6v128h189.4L948.4 880h-159v477a682.8 682.8 0 00576-674.3" fill="#fff" />
-                                            </svg></div>
-                                        <div class="nsl-button-label-container">Continue with <b>Facebook</b></div>
-                                    </div>
-                                </a><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=google&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Google&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="google" data-popupwidth="600" data-popupheight="600">
-                                    <div class="nsl-button nsl-button-default nsl-button-google" data-skin="uniform" style="background-color:#dc4e41;">
-                                        <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                                <path fill="#fff" fill-rule="evenodd" d="M11.988,14.28 L11.988,9.816 L23.22,9.816 C23.388,10.572 23.52,11.28 23.52,12.276 C23.52,19.128 18.924,24 12,24 C5.376,24 -9.47390314e-15,18.624 -9.47390314e-15,12 C-9.47390314e-15,5.376 5.376,0 12,0 C15.24,0 17.952,1.188 20.028,3.132 L16.62,6.444 C15.756,5.628 14.244,4.668 12,4.668 C8.028,4.668 4.788,7.968 4.788,12.012 C4.788,16.056 8.028,19.356 12,19.356 C16.596,19.356 18.288,16.176 18.6,14.292 L11.988,14.292 L11.988,14.28 Z" />
-                                            </svg></div>
-                                        <div class="nsl-button-label-container">Continue with <b>Google</b></div>
-                                    </div>
-                                </a></div>
-                        </div>
-                    </div>
-                    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script type="text/javascript">
-                        window._nslDOMReady(function() {
-                            var container = document.getElementById('nsl-custom-login-form-1'),
-                                form = container.closest('form');
-
-                            var innerContainer = container.querySelector('.nsl-container');
-                            if (innerContainer) {
-                                innerContainer.classList.add('nsl-container-embedded-login-layout-below');
-                                innerContainer.style.display = 'block';
-                            }
-
-                            form.appendChild(container);
-                        });
-                    </script>
-                    <style type="text/css">
-                        #nsl-custom-login-form-1 .nsl-container {
-                            display: none;
-                        }
-
-                        #nsl-custom-login-form-1 .nsl-container-embedded-login-layout-below {
-                            clear: both;
-                            padding: 20px 0 0;
-                        }
-
-                        .login form {
-                            padding-bottom: 20px;
-                        }
-                    </style>
-                </form>
-                <form method="post" class="woocommerce woocommerce-account woocommerce-form woocommerce-form-register register" style="display: none;">
-                    <p class="form-row form-row-wide">
-                        <input placeholder="Username" type="text" class="input-text" name="username" id="panel_reg_username" value="" />
-                    </p>
-                    <p class="form-row form-row-wide">
-                        <input placeholder="Email address" type="email" class="input-text" name="email" id="panel_reg_email" value="" />
-                    </p>
-                    <p class="form-row form-row-wide">
-                        <span class="password-input">
-                            <input placeholder="Password" type="password" class="input-text" name="password" id="panel_reg_password" />
-                        </span>
-                    </p>
-                    <div class="woocommerce-privacy-policy-text"></div>
-                    <p class="form-row form-row-wide">
-                        <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="f8c16db6d8" /><input type="hidden" name="_wp_http_referer" value="/razzi9/wishlist/" /> <button type="submit" class="razzi-button" name="register" value="Sign up">Sign up</button>
-                    </p>
-                    <p class="form-row form-row-wide already_registered">
-                        <a href="#" class="login razzi-button button-outline button-medium">Already has an account</a>
-                    </p>
-                    <style type="text/css">
-                        div.nsl-container[data-align="left"] {
-                            text-align: left;
-                        }
-
-                        div.nsl-container[data-align="center"] {
-                            text-align: center;
-                        }
-
-                        div.nsl-container[data-align="right"] {
-                            text-align: right;
-                        }
-
-
-                        div.nsl-container .nsl-container-buttons a {
-                            text-decoration: none !important;
-                            box-shadow: none !important;
-                            border: 0;
-                        }
-
-                        div.nsl-container .nsl-container-buttons {
-                            display: flex;
-                            padding: 5px 0;
-                        }
-
-                        div.nsl-container.nsl-container-block .nsl-container-buttons {
-                            display: inline-grid;
-                            grid-template-columns: minmax(145px, auto);
-                        }
-
-                        div.nsl-container-block-fullwidth .nsl-container-buttons {
-                            flex-flow: column;
-                            align-items: center;
-                        }
-
-                        div.nsl-container-block-fullwidth .nsl-container-buttons a,
-                        div.nsl-container-block .nsl-container-buttons a {
-                            flex: 1 1 auto;
-                            display: block;
-                            margin: 5px 0;
-                            width: 100%;
-                        }
-
-                        div.nsl-container-inline {
-                            margin: -5px;
-                            text-align: left;
-                        }
-
-                        div.nsl-container-inline .nsl-container-buttons {
-                            justify-content: center;
-                            flex-wrap: wrap;
-                        }
-
-                        div.nsl-container-inline .nsl-container-buttons a {
-                            margin: 5px;
-                            display: inline-block;
-                        }
-
-                        div.nsl-container-grid .nsl-container-buttons {
-                            flex-flow: row;
-                            align-items: center;
-                            flex-wrap: wrap;
-                        }
-
-                        div.nsl-container-grid .nsl-container-buttons a {
-                            flex: 1 1 auto;
-                            display: block;
-                            margin: 5px;
-                            max-width: 280px;
-                            width: 100%;
-                        }
-
-                        @media only screen and (min-width: 650px) {
-                            div.nsl-container-grid .nsl-container-buttons a {
-                                width: auto;
-                            }
-                        }
-
-                        div.nsl-container .nsl-button {
-                            cursor: pointer;
-                            vertical-align: top;
-                            border-radius: 4px;
-                        }
-
-                        div.nsl-container .nsl-button-default {
-                            color: #fff;
-                            display: flex;
-                        }
-
-                        div.nsl-container .nsl-button-icon {
-                            display: inline-block;
-                        }
-
-                        div.nsl-container .nsl-button-svg-container {
-                            flex: 0 0 auto;
-                            padding: 8px;
-                            display: flex;
-                            align-items: center;
-                        }
-
-                        div.nsl-container svg {
-                            height: 24px;
-                            width: 24px;
-                            vertical-align: top;
-                        }
-
-                        div.nsl-container .nsl-button-default div.nsl-button-label-container {
-                            margin: 0 24px 0 12px;
-                            padding: 10px 0;
-                            font-family: Helvetica, Arial, sans-serif;
-                            font-size: 16px;
-                            line-height: 20px;
-                            letter-spacing: .25px;
-                            overflow: hidden;
-                            text-align: center;
-                            text-overflow: clip;
-                            white-space: nowrap;
-                            flex: 1 1 auto;
-                            -webkit-font-smoothing: antialiased;
-                            -moz-osx-font-smoothing: grayscale;
-                            text-transform: none;
-                            display: inline-block;
-                        }
-
-                        div.nsl-container .nsl-button-google[data-skin="dark"] .nsl-button-svg-container {
-                            margin: 1px;
-                            padding: 7px;
-                            border-radius: 3px;
-                            background: #fff;
-                        }
-
-                        div.nsl-container .nsl-button-google[data-skin="light"] {
-                            border-radius: 1px;
-                            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
-                            color: RGBA(0, 0, 0, 0.54);
-                        }
-
-                        div.nsl-container .nsl-button-apple .nsl-button-svg-container {
-                            padding: 0 6px;
-                        }
-
-                        div.nsl-container .nsl-button-apple .nsl-button-svg-container svg {
-                            height: 40px;
-                            width: auto;
-                        }
-
-                        div.nsl-container .nsl-button-apple[data-skin="light"] {
-                            color: #000;
-                            box-shadow: 0 0 0 1px #000;
-                        }
-
-                        div.nsl-container .nsl-button-facebook[data-skin="white"] {
-                            color: #000;
-                            box-shadow: inset 0 0 0 1px #000;
-                        }
-
-                        div.nsl-container .nsl-button-facebook[data-skin="light"] {
-                            color: #1877F2;
-                            box-shadow: inset 0 0 0 1px #1877F2;
-                        }
-
-                        div.nsl-container .nsl-button-apple div.nsl-button-label-container {
-                            font-size: 17px;
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                        }
-
-                        div.nsl-container .nsl-button-slack div.nsl-button-label-container {
-                            font-size: 17px;
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                        }
-
-                        div.nsl-container .nsl-button-slack[data-skin="light"] {
-                            color: #000000;
-                            box-shadow: inset 0 0 0 1px #DDDDDD;
-                        }
-
-                        .nsl-clear {
-                            clear: both;
-                        }
-
-                        .nsl-container {
-                            clear: both;
-                        }
-
-                        /*Button align start*/
-
-                        div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
-                            justify-content: flex-start;
-                        }
-
-                        div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
-                            justify-content: center;
-                        }
-
-                        div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
-                            justify-content: flex-end;
-                        }
-
-
-                        div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
-                            justify-content: flex-start;
-                        }
-
-                        div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
-                            justify-content: center;
-                        }
-
-                        div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
-                            justify-content: flex-end;
-                        }
-
-                        div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
-                            justify-content: space-around;
-                        }
-
-                        div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
-                            justify-content: space-between;
-                        }
-
-                        /* Button align end*/
-
-                        /* Redirect */
-
-                        #nsl-redirect-overlay {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            position: fixed;
-                            z-index: 1000000;
-                            left: 0;
-                            top: 0;
-                            width: 100%;
-                            height: 100%;
-                            backdrop-filter: blur(1px);
-                            background-color: RGBA(0, 0, 0, .32);
-                            ;
-                        }
-
-                        #nsl-redirect-overlay-container {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            background-color: white;
-                            padding: 30px;
-                            border-radius: 10px;
-                        }
-
-                        #nsl-redirect-overlay-spinner {
-                            content: '';
-                            display: block;
-                            margin: 20px;
-                            border: 9px solid RGBA(0, 0, 0, .6);
-                            border-top: 9px solid #fff;
-                            border-radius: 50%;
-                            box-shadow: inset 0 0 0 1px RGBA(0, 0, 0, .6), 0 0 0 1px RGBA(0, 0, 0, .6);
-                            width: 40px;
-                            height: 40px;
-                            animation: nsl-loader-spin 2s linear infinite;
-                        }
-
-                        @keyframes nsl-loader-spin {
-                            0% {
-                                transform: rotate(0deg)
-                            }
-
-                            to {
-                                transform: rotate(360deg)
-                            }
-                        }
-
-                        #nsl-redirect-overlay-title {
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-                            font-size: 18px;
-                            font-weight: bold;
-                            color: #3C434A;
-                        }
-
-                        #nsl-redirect-overlay-text {
-                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-                            text-align: center;
-                            font-size: 14px;
-                            color: #3C434A;
-                        }
-
-                        /* Redirect END*/
-                    </style>
-                    <div id="nsl-custom-login-form-2">
-                        <div class="nsl-container nsl-container-block" data-align="left">
-                            <div class="nsl-container-buttons"><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=facebook&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Facebook&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="facebook" data-popupwidth="600" data-popupheight="679">
-                                    <div class="nsl-button nsl-button-default nsl-button-facebook" data-skin="dark" style="background-color:#1877F2;">
-                                        <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1365.3 1365.3" height="1365.3" width="1365.3">
-                                                <path d="M1365.3 682.7A682.7 682.7 0 10576 1357V880H402.7V682.7H576V532.3c0-171.1 102-265.6 257.9-265.6 74.6 0 152.8 13.3 152.8 13.3v168h-86.1c-84.8 0-111.3 52.6-111.3 106.6v128h189.4L948.4 880h-159v477a682.8 682.8 0 00576-674.3" fill="#fff" />
-                                            </svg></div>
-                                        <div class="nsl-button-label-container">Continue with <b>Facebook</b></div>
-                                    </div>
-                                </a><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=google&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fwishlist%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Google&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="google" data-popupwidth="600" data-popupheight="600">
-                                    <div class="nsl-button nsl-button-default nsl-button-google" data-skin="uniform" style="background-color:#dc4e41;">
-                                        <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                                <path fill="#fff" fill-rule="evenodd" d="M11.988,14.28 L11.988,9.816 L23.22,9.816 C23.388,10.572 23.52,11.28 23.52,12.276 C23.52,19.128 18.924,24 12,24 C5.376,24 -9.47390314e-15,18.624 -9.47390314e-15,12 C-9.47390314e-15,5.376 5.376,0 12,0 C15.24,0 17.952,1.188 20.028,3.132 L16.62,6.444 C15.756,5.628 14.244,4.668 12,4.668 C8.028,4.668 4.788,7.968 4.788,12.012 C4.788,16.056 8.028,19.356 12,19.356 C16.596,19.356 18.288,16.176 18.6,14.292 L11.988,14.292 L11.988,14.28 Z" />
-                                            </svg></div>
-                                        <div class="nsl-button-label-container">Continue with <b>Google</b></div>
-                                    </div>
-                                </a></div>
-                        </div>
-                    </div>
-                    <script type="text/javascript">
-                        window._nslDOMReady(function() {
-                            var container = document.getElementById('nsl-custom-login-form-2'),
-                                form = container.closest('form');
-
-                            var innerContainer = container.querySelector('.nsl-container');
-                            if (innerContainer) {
-                                innerContainer.classList.add('nsl-container-embedded-login-layout-below');
-                                innerContainer.style.display = 'block';
-                            }
-
-                            form.appendChild(container);
-                        });
-                    </script>
-                    <style type="text/css">
-                        #nsl-custom-login-form-2 .nsl-container {
-                            display: none;
-                        }
-
-                        #nsl-custom-login-form-2 .nsl-container-embedded-login-layout-below {
-                            clear: both;
-                            padding: 20px 0 0;
-                        }
-
-                        .login form {
-                            padding-bottom: 20px;
-                        }
-                    </style>
-                </form>
-            </div>
-        </div>
-    </div>
     <div id="cart-modal" class="cart-modal rz-modal ra-cart-modal" tabindex="-1" role="dialog">
         <div class="off-modal-layer"></div>
         <div class="cart-panel-content panel-content">
@@ -2722,16 +2202,6 @@ session_start();
                     <ul class="woocommerce-mini-cart cart_list product_list_widget razzi-scrollbar ">
                         <li class="woocommerce-mini-cart-item mini-cart-item-6831 mini_cart_item">
                             <div class="woocommerce-mini-cart-item__thumbnail">
-<<<<<<< HEAD
-                                <a href="detail?id={{$product->id}}">
-                                    <img width="130" height="156" src="{{$product->imagepath}}?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
-                            </div>
-                            <div class="woocommerce-mini-cart-item__summary">
-                                <span class="woocommerce-mini-cart-item__name">
-                                    <a class="woocommerce-mini-cart-item__title" href="detail?id={{$product->id}}">
-                                        {{$product->name}} </a>
-                                    <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span></span>
-=======
                                 <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
                                     <img width="130" height="156" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
                             </div>
@@ -2740,7 +2210,6 @@ session_start();
                                     <a class="woocommerce-mini-cart-item__title" href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
                                         Adagio Nightstand </a>
                                     <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span></span>
->>>>>>> vq
                                     <span class="woocommerce-mini-cart-item__qty hidden">
                                         QTY: 1 </span>
                                 </span>
@@ -2748,12 +2217,8 @@ session_start();
                                     <div class="quantity">
                                         <span class="razzi-svg-icon razzi-qty-button decrease"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h368c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
-<<<<<<< HEAD
-                                            </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">{{$product->name}} quantity</label>
-=======
-                                            </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">Adagio Nightstand quantity</label>
->>>>>>> vq
-                                        <input type="number" id="quantity_6296563c04c35" class="input-text qty text" step="1" min="0" max="" name="cart[4d0b954f0bef437c29dfa73fafdf3fa5][qty]" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off" />
+                                            </svg></span> <label class="screen-reader-text" for="quantity_62965638e588f">Adagio Nightstand quantity</label>
+                                        <input type="number" id="quantity_62965638e588f" class="input-text qty text" step="1" min="0" max="" name="cart[4d0b954f0bef437c29dfa73fafdf3fa5][qty]" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off" />
                                         <span class="razzi-svg-icon razzi-qty-button increase"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
                                             </svg></span>
@@ -2768,11 +2233,7 @@ session_start();
                     </ul>
                     <div class="widget_shopping_cart_footer">
                         <p class="woocommerce-mini-cart__total total">
-<<<<<<< HEAD
-                            <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span>
-=======
                             <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span>
->>>>>>> vq
                         </p>
                         <div class="razzi-free-shipping-bar">
                             <div class="razzi-free-shipping-bar__message">
@@ -2788,6 +2249,7 @@ session_start();
             </div>
         </div>
     </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script type="text/javascript">
         (function() {
             var c = document.body.className;
@@ -2870,6 +2332,38 @@ session_start();
         /* ]]> */
     </script>
     <script type='text/javascript' src='https://c0.wp.com/p/woocommerce/6.5.1/assets/js/frontend/add-to-cart.min.js' id='wc-add-to-cart-js'></script>
+    <script type='text/javascript' src='https://c0.wp.com/p/woocommerce/6.5.1/assets/js/selectWoo/selectWoo.full.min.js' id='selectWoo-js'></script>
+    <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></script>
+    <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/dist/i18n.min.js' id='wp-i18n-js'></script>
+    <script type='text/javascript' id='wp-i18n-js-after'>
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+    </script>
+    <script type='text/javascript' id='password-strength-meter-js-extra'>
+        /* <![CDATA[ */
+        var pwsL10n = {
+            "unknown": "Password strength unknown",
+            "short": "Very weak",
+            "bad": "Weak",
+            "good": "Medium",
+            "strong": "Strong",
+            "mismatch": "Mismatch"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-admin/js/password-strength-meter.min.js' id='password-strength-meter-js'></script>
+    <script type='text/javascript' id='wc-password-strength-meter-js-extra'>
+        /* <![CDATA[ */
+        var wc_password_strength_meter_params = {
+            "min_password_strength": "3",
+            "stop_checkout": "",
+            "i18n_password_error": "Please enter a stronger password.",
+            "i18n_password_hint": "Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ & )."
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://c0.wp.com/p/woocommerce/6.5.1/assets/js/frontend/password-strength-meter.min.js' id='wc-password-strength-meter-js'></script>
     <script type='text/javascript' src='https://c0.wp.com/p/woocommerce/6.5.1/assets/js/js-cookie/js.cookie.min.js' id='js-cookie-js'></script>
     <script type='text/javascript' id='woocommerce-js-extra'>
         /* <![CDATA[ */
@@ -2953,7 +2447,6 @@ session_start();
         /* ]]> */
     </script>
     <script type='text/javascript' src='https://demo4.drfuri.com/razzi9/wp-content/themes/razzi/assets/js/scripts.min.js?ver=20220511' id='razzi-js'></script>
-    <script type='text/javascript' src='https://c0.wp.com/p/woocommerce/6.5.1/assets/js/selectWoo/selectWoo.full.min.js' id='selectWoo-js'></script>
     <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/underscore.min.js' id='underscore-js'></script>
     <script type='text/javascript' id='wp-util-js-extra'>
         /* <![CDATA[ */
@@ -3441,7 +2934,7 @@ session_start();
                     <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-311" method="post" data-id="311" data-name="Razzi Form">
                         <div class="mc4wp-form-fields"><input type="email" name="EMAIL" placeholder="Enter Email *" required />
                             <input type="submit" value="Subscribe" />
-                        </div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1654019644" /><input type="hidden" name="_mc4wp_form_id" value="311" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                        </div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1654019641" /><input type="hidden" name="_mc4wp_form_id" value="311" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
                         <div class="mc4wp-response"></div>
                     </form>
                 </div> <a href="#" class="n-close">
@@ -3518,78 +3011,12 @@ session_start();
             v: 'ext',
             j: '1:10.9',
             blog: '197487481',
-            post: '9',
+            post: '8',
             tz: '0',
             srv: 'demo4.drfuri.com'
         }]);
-        _stq.push(['clickTrackerInit', '197487481', '9']);
+        _stq.push(['clickTrackerInit', '197487481', '8']);
     </script>
-    <script>
-        window.lazyLoadOptions = {
-            elements_selector: "img[data-lazy-src],.rocket-lazyload",
-            data_src: "lazy-src",
-            data_srcset: "lazy-srcset",
-            data_sizes: "lazy-sizes",
-            class_loading: "lazyloading",
-            class_loaded: "lazyloaded",
-            threshold: 300,
-            callback_loaded: function(element) {
-                if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
-                    if (element.classList.contains("lazyloaded")) {
-                        if (typeof window.jQuery != "undefined") {
-                            if (jQuery.fn.fitVids) {
-                                jQuery(element).parent().fitVids()
-                            }
-                        }
-                    }
-                }
-            }
-        };
-        window.addEventListener('LazyLoad::Initialized', function(e) {
-            var lazyLoadInstance = e.detail.instance;
-            if (window.MutationObserver) {
-                var observer = new MutationObserver(function(mutations) {
-                    var image_count = 0;
-                    var iframe_count = 0;
-                    var rocketlazy_count = 0;
-                    mutations.forEach(function(mutation) {
-                        for (i = 0; i < mutation.addedNodes.length; i++) {
-                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
-                                continue
-                            }
-                            if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
-                                continue
-                            }
-                            images = mutation.addedNodes[i].getElementsByTagName('img');
-                            is_image = mutation.addedNodes[i].tagName == "IMG";
-                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
-                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
-                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
-                            image_count += images.length;
-                            iframe_count += iframes.length;
-                            rocketlazy_count += rocket_lazy.length;
-                            if (is_image) {
-                                image_count += 1
-                            }
-                            if (is_iframe) {
-                                iframe_count += 1
-                            }
-                        }
-                    });
-                    if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
-                        lazyLoadInstance.update()
-                    }
-                });
-                var b = document.getElementsByTagName("body")[0];
-                var config = {
-                    childList: !0,
-                    subtree: !0
-                };
-                observer.observe(b, config)
-            }
-        }, !1)
-    </script>
-    <script data-no-minify="1" async src="https://demo4.drfuri.com/razzi9/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
 </body>
 
 </html>

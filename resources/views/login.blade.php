@@ -560,8 +560,11 @@
             height: 50px
         }
 
+<<<<<<< HEAD
         .site-header .logo .logo-image {}
 
+=======
+>>>>>>> vq
         .header-sticky #site-header.minimized .header-main {
             height: 70px;
         }
@@ -588,11 +591,15 @@
             top: 132px;
         }
 
+<<<<<<< HEAD
         .razzi-boxed-layout {}
 
         #page-header.page-header--layout-1 .page-header__title {
             padding-top: 50px;
         }
+=======
+     
+>>>>>>> vq
 
         #page-header.page-header--layout-2 {
             padding-top: 50px;
@@ -606,7 +613,10 @@
             padding-bottom: 50px;
         }
 
+<<<<<<< HEAD
         .footer-branding .logo-image {}
+=======
+>>>>>>> vq
 
         .footer-newsletter {
             --rz-footer-newsletter-top-spacing: 110px
@@ -648,12 +658,15 @@
             --rz-footer-main-bottom-spacing: 22px
         }
 
+<<<<<<< HEAD
         @media (max-width: 767px) {
             .site-header .mobile-logo .logo-image {}
 
             .menu-mobile-panel-content .mobile-logo .logo-image {}
         }
 
+=======
+>>>>>>> vq
         @media (max-width: 767px) {}
 
         @media (max-width: 767px) {
@@ -1552,8 +1565,14 @@
                     <div class="u-columns col2-set" id="customer_login">
                         <div class="u-column1 col-1">
                             <h2>Login</h2>
+<<<<<<< HEAD
                             <form class="woocommerce-form woocommerce-form-login login" method="post">
                                 <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+=======
+                            <form class="woocommerce-form woocommerce-form-login LoginController" method="post"  action={{ route( "Custom.Login" )}} >
+                            @csrf
+                               <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+>>>>>>> vq
                                     <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" placeholder="Email Address *" id="username" autocomplete="username" value="" />
                                 </p>
                                 <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
@@ -1908,6 +1927,7 @@
                             </form>
                         </div>
                         <div class="u-column2 col-2">
+<<<<<<< HEAD
                             <h2>Register</h2>
                             <form method="post" class="woocommerce-form woocommerce-form-register register">
                                 <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
@@ -2259,6 +2279,9 @@
                                     }
                                 </style>
                             </form>
+=======
+                          
+>>>>>>> vq
                         </div>
                     </div>
                 </div>
