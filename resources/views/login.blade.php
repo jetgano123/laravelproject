@@ -640,7 +640,6 @@
         .footer-main {
             --rz-footer-main-bottom-spacing: 22px
         }
-
         @media (max-width: 767px) {}
 
         @media (max-width: 767px) {

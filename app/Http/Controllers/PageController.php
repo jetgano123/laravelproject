@@ -145,3 +145,4 @@ class PageController extends Controller
         return Redirect('login');
     }
 }
+

@@ -20,12 +20,26 @@ class CheckLogin
 
     public function handle(Request $request, Closure $next)
     {
+<<<<<<< HEAD
         if (Auth::Check() )  {
             dd($request);
        return redirect() ->intended ('Regiter');
+=======
+
+
+        if (Auth::check() )  {
+
+       return redirect() ->intended ('mainpage');
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
 
     }
 
     return $next($request);
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
 }

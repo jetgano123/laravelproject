@@ -1,6 +1,3 @@
-@php
-session_start();
-@endphp
 <!doctype html>
 <html lang="en-US">
 
@@ -1289,8 +1286,11 @@ session_start();
     <div id="page" class="site">
         <div id="site-header-minimized"></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <x-header></x-header>
 =======
+=======
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
         <header id="site-header" class="site-header header-bottom-no-sticky site-header__border">
             <div class="header-main header-contents hidden-xs hidden-sm has-center logo-center">
                 <div class="razzi-header-container container">
@@ -1536,7 +1536,10 @@ session_start();
                 </div>
             </div>
         </header>
+<<<<<<< HEAD
 >>>>>>> vq
+=======
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
         <div id="page-header" class="page-header  page-header--layout-1">
             <div class="page-header__content container">
                 <nav class="site-breadcrumb"><span itemscope itemtype="http://schema.org/ListItem">
@@ -1599,26 +1602,30 @@ session_start();
                         </thead>
                         <tbody class="wishlist-items-wrapper">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             @foreach($products as $product)
                             @foreach($_SESSION["wishlist"] as $key=>$value)
                             @if($product->id == $key)
 
 
+=======
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                             <tr id="yith-wcwl-row-6831" data-row-id="6831">
                                 <td class="product-remove">
                                     <div>
-                                        <a href="removewishlist?id={{$key}}" title="Remove this product">&times;</a>
+                                        <a href="https://demo4.drfuri.com/razzi9/wishlist/view/QJF595GFDJ9C/?remove_from_wishlist=6831&#038;_wpnonce=be3399b821" class="remove remove_from_wishlist" title="Remove this product">&times;</a>
                                     </div>
                                 </td>
                                 <td class="product-thumbnail">
-                                    <a href="detail?id={{$product->id}}">
-                                        <img width="570" height="684" src="{{$product->imagepath}}?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /> </a>
+                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
+                                        <img width="570" height="684" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=570%2C684&amp;ssl=1" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /> </a>
                                 </td>
                                 <td class="product-name">
-                                    <a href="detail?id={{$product->id}}">
-                                        {{$product->name}} </a>
+                                    <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
+                                        Adagio Nightstand </a>
                                 </td>
                                 <td class="product-price">
+<<<<<<< HEAD
                                     <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</span></span>
 =======
                             <tr id="yith-wcwl-row-6831" data-row-id="6831">
@@ -1638,6 +1645,9 @@ session_start();
                                 <td class="product-price">
                                     <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</span></span>
 >>>>>>> vq
+=======
+                                    <span class="woocs_price_code" data-product-id="6831"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</span></span>
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                                 </td>
                                 <td class="product-stock-status">
                                     <span class="wishlist-in-stock">In Stock</span>
@@ -1646,10 +1656,14 @@ session_start();
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <a href="addtocart?id={{$key}}" data-quantity="1" data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;{{$product->name}}&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="{{$product->name}}"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 =======
                                     <a href="?add-to-cart=6831&#038;remove_from_wishlist_after_add_to_cart=6831&#038;wishlist_id=74&#038;wishlist_token=QJF595GFDJ9C" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart add_to_cart alt rz-loop_button rz-loop_atc_button" data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;Adagio Nightstand&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="Adagio Nightstand"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 >>>>>>> vq
+=======
+                                    <a href="?add-to-cart=6831&#038;remove_from_wishlist_after_add_to_cart=6831&#038;wishlist_id=74&#038;wishlist_token=QJF595GFDJ9C" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart add_to_cart alt rz-loop_button rz-loop_atc_button" data-product_id="6831" data-product_sku="Q4TTYHTJY0" aria-label="Add &ldquo;Adagio Nightstand&rdquo; to your cart" rel="nofollow" data-text="Add to cart" data-title="Adagio Nightstand"><span class="razzi-svg-icon icon-cart"><svg aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                                                 <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"></path>
                                                 <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"></path>
                                             </svg></span><span class="add-to-cart-text loop_button-text">Add to cart</span></a>
@@ -1658,12 +1672,15 @@ session_start();
                                 </td>
                             </tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             @endif
                             @endforeach
                             @endforeach
                             
 =======
 >>>>>>> vq
+=======
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                         </tbody>
                     </table>
                     <div class="yith_wcwl_wishlist_footer">
@@ -1733,10 +1750,14 @@ session_start();
                                         <li id="menu-item-11235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11235"><a href="https://demo4.drfuri.com/razzi9/faq/">FAQs</a></li>
                                         <li id="menu-item-11236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11236"><a href="https://demo4.drfuri.com/razzi9/shipping-returns/">Shipping &amp; Returns</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="detail?id={{$product->id}}">Product Recalls</a></li>
 =======
                                         <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">Product Recalls</a></li>
 >>>>>>> vq
+=======
+                                        <li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11237"><a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">Product Recalls</a></li>
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                                         <li id="menu-item-11238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11238"><a href="https://demo4.drfuri.com/razzi9/store-locator/">Store Locator</a></li>
                                     </ul>
                                 </div>
@@ -2723,6 +2744,7 @@ session_start();
                         <li class="woocommerce-mini-cart-item mini-cart-item-6831 mini_cart_item">
                             <div class="woocommerce-mini-cart-item__thumbnail">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="detail?id={{$product->id}}">
                                     <img width="130" height="156" src="{{$product->imagepath}}?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
                             </div>
@@ -2741,6 +2763,16 @@ session_start();
                                         Adagio Nightstand </a>
                                     <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span></span>
 >>>>>>> vq
+=======
+                                <a href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
+                                    <img width="130" height="156" src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur0001.jpg?resize=130%2C156&amp;ssl=1" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" alt="" /> </a>
+                            </div>
+                            <div class="woocommerce-mini-cart-item__summary">
+                                <span class="woocommerce-mini-cart-item__name">
+                                    <a class="woocommerce-mini-cart-item__title" href="https://demo4.drfuri.com/razzi9/product/adagio-nightstand/">
+                                        Adagio Nightstand </a>
+                                    <span class="woocommerce-mini-cart-item__price"><span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span></span>
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                                     <span class="woocommerce-mini-cart-item__qty hidden">
                                         QTY: 1 </span>
                                 </span>
@@ -2749,10 +2781,14 @@ session_start();
                                         <span class="razzi-svg-icon razzi-qty-button decrease"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h368c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">{{$product->name}} quantity</label>
 =======
                                             </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">Adagio Nightstand quantity</label>
 >>>>>>> vq
+=======
+                                            </svg></span> <label class="screen-reader-text" for="quantity_6296563c04c35">Adagio Nightstand quantity</label>
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                                         <input type="number" id="quantity_6296563c04c35" class="input-text qty text" step="1" min="0" max="" name="cart[4d0b954f0bef437c29dfa73fafdf3fa5][qty]" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off" />
                                         <span class="razzi-svg-icon razzi-qty-button increase"><svg aria-hidden="true" role="img" focusable="false" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                                 <path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path>
@@ -2769,10 +2805,14 @@ session_start();
                     <div class="widget_shopping_cart_footer">
                         <p class="woocommerce-mini-cart__total total">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;{{$product->price}}</bdi></span></span>
 =======
                             <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span>
 >>>>>>> vq
+=======
+                            <span class="woocommerce-mini-cart__count_notice hidden">There is 1 item in your cart</span><strong>Subtotal:</strong> <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>&nbsp;36.85</bdi></span></span>
+>>>>>>> 57bf3ca6f06152ae037c14408b6f726d951bd54f
                         </p>
                         <div class="razzi-free-shipping-bar">
                             <div class="razzi-free-shipping-bar__message">
