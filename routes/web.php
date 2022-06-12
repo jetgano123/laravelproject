@@ -15,7 +15,6 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-<<<<<<< HEAD
 Route::get('/',[PageController::class,'mainpage']);
 Route::get('/login',[PageController::class,'login']);
 Route::get('/cart',[PageController::class,'cart']);
@@ -26,8 +25,3 @@ Route::get('/addtocart',[PageController::class,'addtocart']);
 Route::get('/deletecart',[PageController::class,'deletecart']);
 Route::get('/addwishlist',[PageController::class,'addwishlist']);
 Route::get('/removewishlist',[PageController::class,'removewishlist']);
-=======
-Route::get('/', function () {
-    return view('welcome');
-});
->>>>>>> vq
