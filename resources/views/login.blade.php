@@ -560,8 +560,6 @@
             height: 50px
         }
 
-        .site-header .logo .logo-image {}
-
         .header-sticky #site-header.minimized .header-main {
             height: 70px;
         }
@@ -588,11 +586,7 @@
             top: 132px;
         }
 
-        .razzi-boxed-layout {}
-
-        #page-header.page-header--layout-1 .page-header__title {
-            padding-top: 50px;
-        }
+     
 
         #page-header.page-header--layout-2 {
             padding-top: 50px;
@@ -606,7 +600,6 @@
             padding-bottom: 50px;
         }
 
-        .footer-branding .logo-image {}
 
         .footer-newsletter {
             --rz-footer-newsletter-top-spacing: 110px
@@ -647,13 +640,6 @@
         .footer-main {
             --rz-footer-main-bottom-spacing: 22px
         }
-
-        @media (max-width: 767px) {
-            .site-header .mobile-logo .logo-image {}
-
-            .menu-mobile-panel-content .mobile-logo .logo-image {}
-        }
-
         @media (max-width: 767px) {}
 
         @media (max-width: 767px) {
@@ -1552,8 +1538,9 @@
                     <div class="u-columns col2-set" id="customer_login">
                         <div class="u-column1 col-1">
                             <h2>Login</h2>
-                            <form class="woocommerce-form woocommerce-form-login login" method="post">
-                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                            <form class="woocommerce-form woocommerce-form-login LoginController" method="post"  action={{ route( "Custom.Login" )}} >
+                            @csrf
+                               <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                                     <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" placeholder="Email Address *" id="username" autocomplete="username" value="" />
                                 </p>
                                 <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
@@ -1908,357 +1895,7 @@
                             </form>
                         </div>
                         <div class="u-column2 col-2">
-                            <h2>Register</h2>
-                            <form method="post" class="woocommerce-form woocommerce-form-register register">
-                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                    <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="reg_username" autocomplete="username" placeholder="Username *" value="" />
-                                </p>
-                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                    <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" placeholder="Email Address *" value="" />
-                                </p>
-                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                    <input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password" placeholder="Password *" />
-                                </p>
-                                <div class="woocommerce-privacy-policy-text"></div>
-                                <p class="woocommerce-form-row form-row">
-                                    <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="f8c16db6d8" /><input type="hidden" name="_wp_http_referer" value="/razzi9/my-account/" /> <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Register">Register</button>
-                                </p>
-                                <style type="text/css">
-                                    div.nsl-container[data-align="left"] {
-                                        text-align: left;
-                                    }
-
-                                    div.nsl-container[data-align="center"] {
-                                        text-align: center;
-                                    }
-
-                                    div.nsl-container[data-align="right"] {
-                                        text-align: right;
-                                    }
-
-
-                                    div.nsl-container .nsl-container-buttons a {
-                                        text-decoration: none !important;
-                                        box-shadow: none !important;
-                                        border: 0;
-                                    }
-
-                                    div.nsl-container .nsl-container-buttons {
-                                        display: flex;
-                                        padding: 5px 0;
-                                    }
-
-                                    div.nsl-container.nsl-container-block .nsl-container-buttons {
-                                        display: inline-grid;
-                                        grid-template-columns: minmax(145px, auto);
-                                    }
-
-                                    div.nsl-container-block-fullwidth .nsl-container-buttons {
-                                        flex-flow: column;
-                                        align-items: center;
-                                    }
-
-                                    div.nsl-container-block-fullwidth .nsl-container-buttons a,
-                                    div.nsl-container-block .nsl-container-buttons a {
-                                        flex: 1 1 auto;
-                                        display: block;
-                                        margin: 5px 0;
-                                        width: 100%;
-                                    }
-
-                                    div.nsl-container-inline {
-                                        margin: -5px;
-                                        text-align: left;
-                                    }
-
-                                    div.nsl-container-inline .nsl-container-buttons {
-                                        justify-content: center;
-                                        flex-wrap: wrap;
-                                    }
-
-                                    div.nsl-container-inline .nsl-container-buttons a {
-                                        margin: 5px;
-                                        display: inline-block;
-                                    }
-
-                                    div.nsl-container-grid .nsl-container-buttons {
-                                        flex-flow: row;
-                                        align-items: center;
-                                        flex-wrap: wrap;
-                                    }
-
-                                    div.nsl-container-grid .nsl-container-buttons a {
-                                        flex: 1 1 auto;
-                                        display: block;
-                                        margin: 5px;
-                                        max-width: 280px;
-                                        width: 100%;
-                                    }
-
-                                    @media only screen and (min-width: 650px) {
-                                        div.nsl-container-grid .nsl-container-buttons a {
-                                            width: auto;
-                                        }
-                                    }
-
-                                    div.nsl-container .nsl-button {
-                                        cursor: pointer;
-                                        vertical-align: top;
-                                        border-radius: 4px;
-                                    }
-
-                                    div.nsl-container .nsl-button-default {
-                                        color: #fff;
-                                        display: flex;
-                                    }
-
-                                    div.nsl-container .nsl-button-icon {
-                                        display: inline-block;
-                                    }
-
-                                    div.nsl-container .nsl-button-svg-container {
-                                        flex: 0 0 auto;
-                                        padding: 8px;
-                                        display: flex;
-                                        align-items: center;
-                                    }
-
-                                    div.nsl-container svg {
-                                        height: 24px;
-                                        width: 24px;
-                                        vertical-align: top;
-                                    }
-
-                                    div.nsl-container .nsl-button-default div.nsl-button-label-container {
-                                        margin: 0 24px 0 12px;
-                                        padding: 10px 0;
-                                        font-family: Helvetica, Arial, sans-serif;
-                                        font-size: 16px;
-                                        line-height: 20px;
-                                        letter-spacing: .25px;
-                                        overflow: hidden;
-                                        text-align: center;
-                                        text-overflow: clip;
-                                        white-space: nowrap;
-                                        flex: 1 1 auto;
-                                        -webkit-font-smoothing: antialiased;
-                                        -moz-osx-font-smoothing: grayscale;
-                                        text-transform: none;
-                                        display: inline-block;
-                                    }
-
-                                    div.nsl-container .nsl-button-google[data-skin="dark"] .nsl-button-svg-container {
-                                        margin: 1px;
-                                        padding: 7px;
-                                        border-radius: 3px;
-                                        background: #fff;
-                                    }
-
-                                    div.nsl-container .nsl-button-google[data-skin="light"] {
-                                        border-radius: 1px;
-                                        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
-                                        color: RGBA(0, 0, 0, 0.54);
-                                    }
-
-                                    div.nsl-container .nsl-button-apple .nsl-button-svg-container {
-                                        padding: 0 6px;
-                                    }
-
-                                    div.nsl-container .nsl-button-apple .nsl-button-svg-container svg {
-                                        height: 40px;
-                                        width: auto;
-                                    }
-
-                                    div.nsl-container .nsl-button-apple[data-skin="light"] {
-                                        color: #000;
-                                        box-shadow: 0 0 0 1px #000;
-                                    }
-
-                                    div.nsl-container .nsl-button-facebook[data-skin="white"] {
-                                        color: #000;
-                                        box-shadow: inset 0 0 0 1px #000;
-                                    }
-
-                                    div.nsl-container .nsl-button-facebook[data-skin="light"] {
-                                        color: #1877F2;
-                                        box-shadow: inset 0 0 0 1px #1877F2;
-                                    }
-
-                                    div.nsl-container .nsl-button-apple div.nsl-button-label-container {
-                                        font-size: 17px;
-                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                                    }
-
-                                    div.nsl-container .nsl-button-slack div.nsl-button-label-container {
-                                        font-size: 17px;
-                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                                    }
-
-                                    div.nsl-container .nsl-button-slack[data-skin="light"] {
-                                        color: #000000;
-                                        box-shadow: inset 0 0 0 1px #DDDDDD;
-                                    }
-
-                                    .nsl-clear {
-                                        clear: both;
-                                    }
-
-                                    .nsl-container {
-                                        clear: both;
-                                    }
-
-                                    /*Button align start*/
-
-                                    div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
-                                        justify-content: flex-start;
-                                    }
-
-                                    div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
-                                        justify-content: center;
-                                    }
-
-                                    div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
-                                        justify-content: flex-end;
-                                    }
-
-
-                                    div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
-                                        justify-content: flex-start;
-                                    }
-
-                                    div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
-                                        justify-content: center;
-                                    }
-
-                                    div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
-                                        justify-content: flex-end;
-                                    }
-
-                                    div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
-                                        justify-content: space-around;
-                                    }
-
-                                    div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
-                                        justify-content: space-between;
-                                    }
-
-                                    /* Button align end*/
-
-                                    /* Redirect */
-
-                                    #nsl-redirect-overlay {
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                        align-items: center;
-                                        position: fixed;
-                                        z-index: 1000000;
-                                        left: 0;
-                                        top: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        backdrop-filter: blur(1px);
-                                        background-color: RGBA(0, 0, 0, .32);
-                                        ;
-                                    }
-
-                                    #nsl-redirect-overlay-container {
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                        align-items: center;
-                                        background-color: white;
-                                        padding: 30px;
-                                        border-radius: 10px;
-                                    }
-
-                                    #nsl-redirect-overlay-spinner {
-                                        content: '';
-                                        display: block;
-                                        margin: 20px;
-                                        border: 9px solid RGBA(0, 0, 0, .6);
-                                        border-top: 9px solid #fff;
-                                        border-radius: 50%;
-                                        box-shadow: inset 0 0 0 1px RGBA(0, 0, 0, .6), 0 0 0 1px RGBA(0, 0, 0, .6);
-                                        width: 40px;
-                                        height: 40px;
-                                        animation: nsl-loader-spin 2s linear infinite;
-                                    }
-
-                                    @keyframes nsl-loader-spin {
-                                        0% {
-                                            transform: rotate(0deg)
-                                        }
-
-                                        to {
-                                            transform: rotate(360deg)
-                                        }
-                                    }
-
-                                    #nsl-redirect-overlay-title {
-                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-                                        font-size: 18px;
-                                        font-weight: bold;
-                                        color: #3C434A;
-                                    }
-
-                                    #nsl-redirect-overlay-text {
-                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-                                        text-align: center;
-                                        font-size: 14px;
-                                        color: #3C434A;
-                                    }
-
-                                    /* Redirect END*/
-                                </style>
-                                <div id="nsl-custom-login-form-2">
-                                    <div class="nsl-container nsl-container-block" data-align="left">
-                                        <div class="nsl-container-buttons"><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=facebook&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fmy-account%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Facebook&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="facebook" data-popupwidth="600" data-popupheight="679">
-                                                <div class="nsl-button nsl-button-default nsl-button-facebook" data-skin="dark" style="background-color:#1877F2;">
-                                                    <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1365.3 1365.3" height="1365.3" width="1365.3">
-                                                            <path d="M1365.3 682.7A682.7 682.7 0 10576 1357V880H402.7V682.7H576V532.3c0-171.1 102-265.6 257.9-265.6 74.6 0 152.8 13.3 152.8 13.3v168h-86.1c-84.8 0-111.3 52.6-111.3 106.6v128h189.4L948.4 880h-159v477a682.8 682.8 0 00576-674.3" fill="#fff" />
-                                                        </svg></div>
-                                                    <div class="nsl-button-label-container">Continue with <b>Facebook</b></div>
-                                                </div>
-                                            </a><a href="https://demo4.drfuri.com/razzi9/wp-login.php?loginSocial=google&#038;redirect=https%3A%2F%2Fdemo4.drfuri.com%2Frazzi9%2Fmy-account%2F" rel="nofollow" aria-label="Continue with &lt;b&gt;Google&lt;/b&gt;" data-plugin="nsl" data-action="connect" data-provider="google" data-popupwidth="600" data-popupheight="600">
-                                                <div class="nsl-button nsl-button-default nsl-button-google" data-skin="uniform" style="background-color:#dc4e41;">
-                                                    <div class="nsl-button-svg-container"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                                            <path fill="#fff" fill-rule="evenodd" d="M11.988,14.28 L11.988,9.816 L23.22,9.816 C23.388,10.572 23.52,11.28 23.52,12.276 C23.52,19.128 18.924,24 12,24 C5.376,24 -9.47390314e-15,18.624 -9.47390314e-15,12 C-9.47390314e-15,5.376 5.376,0 12,0 C15.24,0 17.952,1.188 20.028,3.132 L16.62,6.444 C15.756,5.628 14.244,4.668 12,4.668 C8.028,4.668 4.788,7.968 4.788,12.012 C4.788,16.056 8.028,19.356 12,19.356 C16.596,19.356 18.288,16.176 18.6,14.292 L11.988,14.292 L11.988,14.28 Z" />
-                                                        </svg></div>
-                                                    <div class="nsl-button-label-container">Continue with <b>Google</b></div>
-                                                </div>
-                                            </a></div>
-                                    </div>
-                                </div>
-                                <script type="text/javascript">
-                                    window._nslDOMReady(function() {
-                                        var container = document.getElementById('nsl-custom-login-form-2'),
-                                            form = container.closest('form');
-
-                                        var innerContainer = container.querySelector('.nsl-container');
-                                        if (innerContainer) {
-                                            innerContainer.classList.add('nsl-container-embedded-login-layout-below');
-                                            innerContainer.style.display = 'block';
-                                        }
-
-                                        form.appendChild(container);
-                                    });
-                                </script>
-                                <style type="text/css">
-                                    #nsl-custom-login-form-2 .nsl-container {
-                                        display: none;
-                                    }
-
-                                    #nsl-custom-login-form-2 .nsl-container-embedded-login-layout-below {
-                                        clear: both;
-                                        padding: 20px 0 0;
-                                    }
-
-                                    .login form {
-                                        padding-bottom: 20px;
-                                    }
-                                </style>
-                            </form>
+                          
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
-use App\Http\Controllers\ProductController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,13 +15,31 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/',[PageController::class,'mainpage']);
-Route::get('/login',[PageController::class,'login']);
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
+
+Route::get('/mainpage',[PageController::class,'mainpage']);
+
+Route::get('/login',[PageController::class,'LoginController'])->name('login');
+ Route::post('/login', [PageController::class, 'customLogin'])->name('Custom.Login')->middleware('tao');
+//Route::post('/login', [PageController::class, 'customLogin'])->name('Custom.Login');
+
+Route::get('/Register',[PageController::class,'RegisterController'])->name('register');
+Route::post('/Register',[PageController::class,'customRegistration'])->name('custom.Register');
+
+
+
+Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
+Route::get('/callback/{provider}', 'SocialController@callback');
+
+
+
 Route::get('/cart',[PageController::class,'cart']);
 Route::get('/wishlist',[PageController::class,'wishlist']);
 Route::get('/shop',[PageController::class,'shop']);
-Route::get('/detail',[PageController::class,'detail']);
-Route::get('/addtocart',[PageController::class,'addtocart']);
-Route::get('/deletecart',[PageController::class,'deletecart']);
-Route::get('/addwishlist',[PageController::class,'addwishlist']);
-Route::get('/removewishlist',[PageController::class,'removewishlist']);
+
+Route::get('signout', [PageController::class, 'signOut'])->name('signout');
+
