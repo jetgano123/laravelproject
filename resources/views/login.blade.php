@@ -560,11 +560,6 @@
             height: 50px
         }
 
-<<<<<<< HEAD
-        .site-header .logo .logo-image {}
-
-=======
->>>>>>> vq
         .header-sticky #site-header.minimized .header-main {
             height: 70px;
         }
@@ -591,15 +586,7 @@
             top: 132px;
         }
 
-<<<<<<< HEAD
-        .razzi-boxed-layout {}
-
-        #page-header.page-header--layout-1 .page-header__title {
-            padding-top: 50px;
-        }
-=======
      
->>>>>>> vq
 
         #page-header.page-header--layout-2 {
             padding-top: 50px;
@@ -613,10 +600,6 @@
             padding-bottom: 50px;
         }
 
-<<<<<<< HEAD
-        .footer-branding .logo-image {}
-=======
->>>>>>> vq
 
         .footer-newsletter {
             --rz-footer-newsletter-top-spacing: 110px
@@ -658,15 +641,6 @@
             --rz-footer-main-bottom-spacing: 22px
         }
 
-<<<<<<< HEAD
-        @media (max-width: 767px) {
-            .site-header .mobile-logo .logo-image {}
-
-            .menu-mobile-panel-content .mobile-logo .logo-image {}
-        }
-
-=======
->>>>>>> vq
         @media (max-width: 767px) {}
 
         @media (max-width: 767px) {
