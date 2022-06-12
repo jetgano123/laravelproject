@@ -5,15 +5,9 @@
                 <div class="header-left-items header-items  has-menu has-logo">
                     <nav id="primary-menu" class="main-navigation primary-navigation">
                         <ul id="menu-primary-menu" class="nav-menu click-icon">
-<<<<<<< HEAD
                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor menu-item-has-children menu-item-10076 active dropdown is-mega-menu has-width align-left"><a href="/" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6058 dropdown is-mega-menu has-width align-left"><a href="shop" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
-=======
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor menu-item-has-children menu-item-10076 active dropdown is-mega-menu has-width align-left"><a href="mainpage" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6058 dropdown is-mega-menu has-width align-left"><a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
->>>>>>> vq
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58 dropdown hasmenu"><a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                             </li>
