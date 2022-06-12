@@ -1565,14 +1565,9 @@
                     <div class="u-columns col2-set" id="customer_login">
                         <div class="u-column1 col-1">
                             <h2>Login</h2>
-<<<<<<< HEAD
-                            <form class="woocommerce-form woocommerce-form-login login" method="post">
-                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-=======
                             <form class="woocommerce-form woocommerce-form-login LoginController" method="post"  action={{ route( "Custom.Login" )}} >
                             @csrf
                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
->>>>>>> vq
                                     <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" placeholder="Email Address *" id="username" autocomplete="username" value="" />
                                 </p>
                                 <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
